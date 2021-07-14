@@ -2886,7 +2886,7 @@ MonoBehaviour:
       the toggle to a button that requests, and then player gets confirmation only
       if the update was successful.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -44.33808, y: -882.2416}
-    scale: 0.2842624
+    position: {x: 245.65346, y: 41.94137}
+    scale: 0.49717674
   version: 1.0.0
   showAssembly: 0
