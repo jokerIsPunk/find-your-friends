@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: FindYourFriends
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: e27304043c0e0564fabb89829066aefa,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 01044b43da71c8748986f9e084fa115d,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export displayText\r\n    .export hideMeToggle\r\n
     \   .export verboseLogging\r\n    .export tipText\r\n    .sync hiddenArray, none\r\n

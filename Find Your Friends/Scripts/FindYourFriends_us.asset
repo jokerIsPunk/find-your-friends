@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: FindYourFriends_us
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b1995a3113cc0db488f35b354aa12e49,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 05688a131a2967541aecba3adab6d92c,
     type: 2}
   udonAssembly: 
   assemblyError: 
