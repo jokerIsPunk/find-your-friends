@@ -2849,7 +2849,7 @@ MonoBehaviour:
       around. Clunky, but works just fine in most cases.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 9d99b7f7-7fb9-4c2c-bcac-0e3ccfe060f8
-    jsonData: '{"uid":"9d99b7f7-7fb9-4c2c-bcac-0e3ccfe060f8","layout":{"serializedVersion":"2","x":4275.0,"y":420.0,"width":324.19287109375,"height":102.35587310791016},"title":"Should
+    jsonData: '{"uid":"9d99b7f7-7fb9-4c2c-bcac-0e3ccfe060f8","layout":{"serializedVersion":"2","x":4275.0,"y":240.0,"width":324.19281005859377,"height":102.3558578491211},"title":"Should
       always be true, assuming VRCPlayerApi.GetPlayers does its job as expected","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
     uid: 24c52b02-2c26-48a1-9db0-7be01c0a1413
@@ -2893,8 +2893,13 @@ MonoBehaviour:
       solution for this is to faithfully reflect the player''s state in the UI. Change
       the toggle to a button that requests, and then player gets confirmation only
       if the update was successful.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+  - type: 3
+    uid: c42103d4-1296-45d3-b288-3550386705d0
+    jsonData: '{"uid":"c42103d4-1296-45d3-b288-3550386705d0","layout":{"serializedVersion":"2","x":4275.0,"y":360.0,"width":364.72747802734377,"height":86.28749084472656},"title":"TODO:
+      run Getplayers only once, before the For loop. That''s how I do it in the Usharp
+      version.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -1566.5067, y: -5995.767}
+    position: {x: -2727.3103, y: -58.652695}
     scale: 0.7561437
   version: 1.0.0
   showAssembly: 0

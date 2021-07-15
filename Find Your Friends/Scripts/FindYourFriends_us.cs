@@ -18,6 +18,7 @@ public class FindYourFriends_us : UdonSharpBehaviour
 
     private VRCPlayerApi[] allPlayers = new VRCPlayerApi[80];
     private VRCPlayerApi[] visiblePlayers = new VRCPlayerApi[80];
+    private int visiblePlayersSize = 0;
     private VRCPlayerApi selectedPlayer;
     [UdonSynced]
     private int[] hiddenPlayers = new int[80];
@@ -46,14 +47,17 @@ public class FindYourFriends_us : UdonSharpBehaviour
     public void _Scroll()
     {
         scrollPos = scrollPos + scrollDir;
-        int visiblePlayersSize = 0;
-        int playerCount = VRCPlayerApi.GetPlayerCount();
+        allPlayers = VRCPlayerApi.GetPlayers(allPlayers);
+        int playerCount = VRCPlayerApi.GetPlayerCount();    // focus the loop on contiguous, valid players
+        visiblePlayersSize = 0;                             // only increments up
+        int playerId = 0;
+        VRCPlayerApi player;
         for (int iAllPlayers = 0; iAllPlayers < playerCount; iAllPlayers++)
         {
-            VRCPlayerApi player = allPlayers[iAllPlayers];
-            if (Utilities.IsValid(player))
+            player = allPlayers[iAllPlayers];
+            if (Utilities.IsValid(player))                  // IsValid check should be redundant
             {
-                int playerId = player.playerId;
+                playerId = player.playerId;
                 bool foundHidden = false;
                 int hiddenId = 0;
                 for (int iHidden = 0; iHidden < hiddenLength; iHidden++)
@@ -66,7 +70,7 @@ public class FindYourFriends_us : UdonSharpBehaviour
                     }
                 }
                 
-                if (!foundHidden)
+                if (!foundHidden)                           // for loop proves the negative
                 {
                     visiblePlayers[visiblePlayersSize] = VRCPlayerApi.GetPlayerById(playerId);
                     visiblePlayersSize++;
@@ -85,6 +89,7 @@ public class FindYourFriends_us : UdonSharpBehaviour
                 displayText.text = selectedPlayer.displayName;
             }
         }
+        else { Debug.LogWarning("[FindFriends] Scroll trying to divide by 0! Are there 0 visible players?"); }
 
         Debug.Log("[FindFriends] Rebuilt visible list. PlayerCount " + playerCount.ToString() + ", hidden " + hiddenLength.ToString() + ", visible " + visiblePlayersSize.ToString());
     }
