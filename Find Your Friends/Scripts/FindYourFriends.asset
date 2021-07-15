@@ -69,11 +69,11 @@ MonoBehaviour:
     null\r\n    min_0: %SystemInt32, null\r\n    max_0: %SystemInt32, null\r\n    Int32_14:
     %SystemInt32, null\r\n    Int32_15: %SystemInt32, null\r\n    message_4: %SystemObject,
     null\r\n    format_2: %SystemString, null\r\n    arg0_2: %SystemObject, null\r\n
-    \   instance_14: %VRCUdonUdonBehaviour, this\r\n    instance_15: %UnityEngineUIText,
-    null\r\n    value_5: %SystemString, null\r\n    message_5: %SystemObject, null\r\n
-    \   String_2: %SystemString, null\r\n    index_5: %SystemInt32, null\r\n    condition_3:
-    %SystemBoolean, null\r\n    start_3: %SystemInt32, null\r\n    end_3: %SystemInt32,
-    null\r\n    step_3: %SystemInt32, null\r\n    instance_16: %SystemInt32Array,
+    \   instance_14: %UnityEngineUIText, null\r\n    value_5: %SystemString, null\r\n
+    \   instance_15: %VRCUdonUdonBehaviour, this\r\n    message_5: %SystemObject,
+    null\r\n    String_2: %SystemString, null\r\n    index_5: %SystemInt32, null\r\n
+    \   condition_3: %SystemBoolean, null\r\n    start_3: %SystemInt32, null\r\n    end_3:
+    %SystemInt32, null\r\n    step_3: %SystemInt32, null\r\n    instance_16: %SystemInt32Array,
     null\r\n    Boolean_B: %SystemBoolean, null\r\n    Int32_16: %SystemInt32, null\r\n
     \   Int32_17: %SystemInt32, null\r\n    instance_17: %VRCSDKBaseVRCPlayerApi,
     null\r\n    instance_18: %SystemInt32Array, null\r\n    Int32_18: %SystemInt32,
@@ -204,15 +204,15 @@ MonoBehaviour:
     \       PUSH, start_2\r\n        PUSH, index_3\r\n        COPY\r\n        PUSH,
     index_3\r\n        PUSH, end_2\r\n        PUSH, condition_2\r\n        EXTERN,
     \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n        PUSH,
-    condition_2\r\n        JUMP_IF_FALSE, 0x00000A50\r\n        PUSH, searching\r\n
-    \       JUMP_IF_FALSE, 0x00000A28\r\n        PUSH, hiddenArray\r\n        PUSH,
+    condition_2\r\n        JUMP_IF_FALSE, 0x00000A40\r\n        PUSH, searching\r\n
+    \       JUMP_IF_FALSE, 0x00000A18\r\n        PUSH, hiddenArray\r\n        PUSH,
     instance_10\r\n        COPY\r\n        PUSH, index_3\r\n        PUSH, indexHidden\r\n
     \       COPY\r\n        PUSH, hiddenArray\r\n        PUSH, instance_11\r\n        COPY\r\n
     \       PUSH, instance_11\r\n        PUSH, indexHidden\r\n        PUSH, playerId_1\r\n
     \       EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH,
     playerId_1\r\n        PUSH, object_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n
     \       PUSH, object_3\r\n        PUSH, result_3\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n
-    \       PUSH, result_3\r\n        JUMP_IF_FALSE, 0x00000894\r\n        JUMP, 0x00000A20\r\n
+    \       PUSH, result_3\r\n        JUMP_IF_FALSE, 0x00000894\r\n        JUMP, 0x00000A10\r\n
     \       PUSH, hiddenArray\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
     instance_13\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n
     \       PUSH, instance_13\r\n        PUSH, value_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n
@@ -232,14 +232,15 @@ MonoBehaviour:
     \       PUSH, format_2\r\n        PUSH, hiddenArrayLength\r\n        PUSH, message_4\r\n
     \       EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
     \       PUSH, message_4\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       JUMP, 0x000009E4\r\n        PUSH, instance_14\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n
-    \       PUSH, tipText\r\n        PUSH, instance_15\r\n        COPY\r\n        PUSH,
-    instance_15\r\n        PUSH, value_5\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0x00000A28\r\n        PUSH, index_3\r\n        PUSH, step_2\r\n
-    \       PUSH, index_3\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       JUMP, 0x000007B0\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _RemoveFromArray\r\n
-    \   \r\n    _RemoveFromArray:\r\n    \r\n        PUSH, String_2\r\n        PUSH,
-    message_5\r\n        COPY\r\n        PUSH, message_5\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
+    \       JUMP, 0x000009E4\r\n        PUSH, tipText\r\n        PUSH, instance_14\r\n
+    \       COPY\r\n        PUSH, instance_14\r\n        PUSH, value_5\r\n        EXTERN,
+    \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n        JUMP, 0x00000A18\r\n
+    \       PUSH, index_3\r\n        PUSH, step_2\r\n        PUSH, index_3\r\n        EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n        JUMP,
+    0x000007B0\r\n        PUSH, instance_15\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _RemoveFromArray\r\n    \r\n    _RemoveFromArray:\r\n
+    \   \r\n        PUSH, String_2\r\n        PUSH, message_5\r\n        COPY\r\n
+    \       PUSH, message_5\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
     \       PUSH, hiddenArray\r\n        PUSH, instance_16\r\n        COPY\r\n        PUSH,
     instance_16\r\n        PUSH, end_3\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n
     \       PUSH, start_3\r\n        PUSH, index_5\r\n        COPY\r\n        PUSH,
@@ -877,7 +878,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|_AddToArray
     - fullName: Event_Custom
       uid: ee03d0ac-d1e4-4e30-a429-713780ad8695
-      position: {x: 2565, y: 7740}
+      position: {x: 2580, y: 8190}
       nodeUIDs:
       - 
       flowUIDs:
@@ -1039,7 +1040,7 @@ MonoBehaviour:
       - 
       - 0cd81b3b-e02f-44f7-b941-9bc87437ee99|0
       flowUIDs:
-      - c45d6f70-e4e6-4946-8458-1287532c2079
+      - 14bf04ec-6380-4183-ac01-cf2685bc13ae
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|d8eb4664-19ff-44af-a14b-802cf2ca2188
@@ -1137,7 +1138,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: For
       uid: 30ceb639-e97c-488f-a0e6-07c2a6486070
-      position: {x: 3405, y: 7740}
+      position: {x: 3420, y: 8190}
       nodeUIDs:
       - 
       - 8d9ce68f-eeac-48a3-bbda-42f0c843a506
@@ -1154,7 +1155,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|1
     - fullName: Get_Variable
       uid: 188342f9-0898-44d2-90d2-7c932d807321
-      position: {x: 3225, y: 7905}
+      position: {x: 3240, y: 8355}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1165,7 +1166,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: SystemInt32Array.__get_Length__SystemInt32
       uid: 8d9ce68f-eeac-48a3-bbda-42f0c843a506
-      position: {x: 3225, y: 7815}
+      position: {x: 3240, y: 8265}
       nodeUIDs:
       - 188342f9-0898-44d2-90d2-7c932d807321
       flowUIDs: []
@@ -1174,7 +1175,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Set_Variable
       uid: 1289e646-76e7-4feb-ae48-a37e87c3a6e2
-      position: {x: 3615, y: 7740}
+      position: {x: 3630, y: 8190}
       nodeUIDs:
       - 
       - 30ceb639-e97c-488f-a0e6-07c2a6486070|0
@@ -1187,7 +1188,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: SystemInt32Array.__Get__SystemInt32__SystemInt32
       uid: 6a68513a-0612-4792-b5c1-acb4a2dcbaa2
-      position: {x: 4230, y: 7980}
+      position: {x: 4245, y: 8430}
       nodeUIDs:
       - dd7bf6eb-4953-488c-9a9b-f5d590bc1f98
       - 5c81e219-c50d-40d0-bb82-7bea0d5fd0bb
@@ -1199,7 +1200,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean
       uid: 1c5b5f84-c5d4-4f2a-9130-5a6b0335ab61
-      position: {x: 4230, y: 7860}
+      position: {x: 4245, y: 8310}
       nodeUIDs:
       - dc79a2ef-3354-443b-b44c-224d3161112f|0
       - 6a68513a-0612-4792-b5c1-acb4a2dcbaa2|0
@@ -1211,7 +1212,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Get_Variable
       uid: 5c81e219-c50d-40d0-bb82-7bea0d5fd0bb
-      position: {x: 4050, y: 8070}
+      position: {x: 4065, y: 8520}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1222,7 +1223,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: dd7bf6eb-4953-488c-9a9b-f5d590bc1f98
-      position: {x: 4050, y: 7980}
+      position: {x: 4065, y: 8430}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1233,13 +1234,13 @@ MonoBehaviour:
         stringValue: 
     - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
       uid: 44b4efd6-9b4e-462b-b986-c73e298423ab
-      position: {x: 3870, y: 7860}
+      position: {x: 3885, y: 8310}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32
       uid: dc79a2ef-3354-443b-b44c-224d3161112f
-      position: {x: 4065, y: 7860}
+      position: {x: 4080, y: 8310}
       nodeUIDs:
       - 44b4efd6-9b4e-462b-b986-c73e298423ab
       flowUIDs: []
@@ -1248,7 +1249,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Branch
       uid: 29aa3d9c-7398-4488-8e0b-9cb5673802fa
-      position: {x: 4230, y: 7740}
+      position: {x: 4245, y: 8190}
       nodeUIDs:
       - 1c5b5f84-c5d4-4f2a-9130-5a6b0335ab61|0
       flowUIDs:
@@ -1258,7 +1259,7 @@ MonoBehaviour:
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: f30997fe-fc36-4d97-b9d2-694e38bea950
-      position: {x: 4680, y: 7650}
+      position: {x: 4695, y: 8100}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1269,7 +1270,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid
       uid: 3c7190c0-8ef3-47bf-a244-69483c632085
-      position: {x: 4680, y: 7740}
+      position: {x: 4695, y: 8190}
       nodeUIDs:
       - f30997fe-fc36-4d97-b9d2-694e38bea950
       - d9cd5d83-82c4-4be2-aef8-6ecedee34b64|0
@@ -1291,7 +1292,7 @@ MonoBehaviour:
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: Get_Variable
       uid: 2b6fbc38-4cd4-40b0-b25a-13066c48ef0e
-      position: {x: 4470, y: 7935}
+      position: {x: 4485, y: 8385}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1302,7 +1303,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Const_SystemInt32
       uid: d9cd5d83-82c4-4be2-aef8-6ecedee34b64
-      position: {x: 4470, y: 7845}
+      position: {x: 4485, y: 8295}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -1451,7 +1452,6 @@ MonoBehaviour:
       flowUIDs:
       - c953ebae-6b83-4ec6-b396-76c7aa75c7ff
       - 1a3e0db5-508c-4ebe-b3e1-0a73cf4d4984
-      - 2b2c3113-4b78-44d4-8442-1544426d5f50
       - 5a138d6e-37e3-491f-a31a-1e91408eb577
       nodeValues: []
     - fullName: Get_Variable
@@ -2265,7 +2265,7 @@ MonoBehaviour:
           Calling AddToArray()...
     - fullName: UnityEngineDebug.__Log__SystemObject__SystemVoid
       uid: e8b7bb8a-bddd-4271-8d8a-e5e8dfb8ef77
-      position: {x: 2835, y: 7740}
+      position: {x: 2850, y: 8190}
       nodeUIDs:
       - 1bcb1e43-efe8-4dfc-89e4-b32ef1408e5b
       flowUIDs:
@@ -2275,7 +2275,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Const_SystemString
       uid: 1bcb1e43-efe8-4dfc-89e4-b32ef1408e5b
-      position: {x: 2835, y: 7875}
+      position: {x: 2850, y: 8325}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -2285,7 +2285,7 @@ MonoBehaviour:
           Calling RemoveFromArray()...
     - fullName: UnityEngineDebug.__Log__SystemObject__SystemVoid
       uid: 18c003fd-bb73-4d85-94c9-4637c9bee9da
-      position: {x: 4950, y: 7740}
+      position: {x: 4965, y: 8190}
       nodeUIDs:
       - 69a14bfd-0b7e-46f0-b87c-5a6c544cdfa4|0
       flowUIDs: []
@@ -2294,7 +2294,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: SystemString.__Format__SystemString_SystemObject__SystemString
       uid: 69a14bfd-0b7e-46f0-b87c-5a6c544cdfa4
-      position: {x: 4950, y: 7875}
+      position: {x: 4965, y: 8325}
       nodeUIDs:
       - 
       - 36234aea-ff50-4477-a174-e544264865ac|0
@@ -2307,7 +2307,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: 36234aea-ff50-4477-a174-e544264865ac
-      position: {x: 4950, y: 8010}
+      position: {x: 4965, y: 8460}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -2569,7 +2569,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid
       uid: 2b2c3113-4b78-44d4-8442-1544426d5f50
-      position: {x: 5385, y: 6750}
+      position: {x: 3540, y: 7380}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -2578,7 +2578,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid
       uid: 8d2d8329-80d6-472b-a705-eef71ce2b903
-      position: {x: 3165, y: 8190}
+      position: {x: 3180, y: 8640}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -2649,7 +2649,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Block
       uid: ff06c9bb-9621-4f35-80a5-edc8fb6104e8
-      position: {x: 3060, y: 7740}
+      position: {x: 3075, y: 8190}
       nodeUIDs: []
       flowUIDs:
       - 30ceb639-e97c-488f-a0e6-07c2a6486070
@@ -2658,7 +2658,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Get_Variable
       uid: 77b0cd43-6e05-45de-a227-245e4ef7d348
-      position: {x: 3165, y: 8415}
+      position: {x: 3180, y: 8865}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -2669,7 +2669,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineUIText.__set_text__SystemString__SystemVoid
       uid: 6aaaa993-f2c3-4ceb-b68f-8dae4dc70449
-      position: {x: 3165, y: 8505}
+      position: {x: 3180, y: 8955}
       nodeUIDs:
       - 77b0cd43-6e05-45de-a227-245e4ef7d348|0
       - 
@@ -2704,6 +2704,14 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Others
           cannot teleport to you
+    - fullName: Block
+      uid: 14bf04ec-6380-4183-ac01-cf2685bc13ae
+      position: {x: 3420, y: 5535}
+      nodeUIDs: []
+      flowUIDs:
+      - c45d6f70-e4e6-4946-8458-1287532c2079
+      - 2b2c3113-4b78-44d4-8442-1544426d5f50
+      nodeValues: []
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -2771,7 +2779,7 @@ MonoBehaviour:
       through the array of hidden players until you find an empty slot","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 43ca20c3-10af-4d6a-b3f6-20e948b51bdf
-    jsonData: '{"uid":"43ca20c3-10af-4d6a-b3f6-20e948b51bdf","layout":{"serializedVersion":"2","x":3030.0,"y":7545.0,"width":548.554931640625,"height":137.864990234375},"title":"Skipping
+    jsonData: '{"uid":"43ca20c3-10af-4d6a-b3f6-20e948b51bdf","layout":{"serializedVersion":"2","x":3045.0,"y":7995.0,"width":548.554931640625,"height":137.864990234375},"title":"Skipping
       the ''searching'' check for this one; this will actually just go ahead and search
       the entire array for local''s ID, and remove all of them. I never expect more
       than one, of course, but it makes me feel better.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
@@ -2886,7 +2894,7 @@ MonoBehaviour:
       the toggle to a button that requests, and then player gets confirmation only
       if the update was successful.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -501.20087, y: 80.78274}
-    scale: 0.2842624
+    position: {x: -1566.5067, y: -5995.767}
+    scale: 0.7561437
   version: 1.0.0
   showAssembly: 0
