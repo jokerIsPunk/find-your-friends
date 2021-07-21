@@ -79,7 +79,13 @@ MonoBehaviour:
   m_Text: 'The Find Your Friends prefab is available for everyone:
 
 
-    github.com/jokerispunk'
+    github.com/jokerispunk
+
+
+
+    Also check out:
+
+    vrcprefabs.com/'
 --- !u!1 &560821718349449696
 GameObject:
   m_ObjectHideFlags: 0
