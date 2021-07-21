@@ -1,0 +1,6 @@
+Copyright 2021 Joker is punk
+contact: github.com/jokerIsPunk
+
+This agreement covers materials located in this directory and all subdirectories.
+
+These materials are distributed for testing purposes only. Otherwise, all rights reserved.
