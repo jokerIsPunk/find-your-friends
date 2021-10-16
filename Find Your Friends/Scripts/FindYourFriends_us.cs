@@ -9,10 +9,10 @@ using VRC.Udon;
 public class FindYourFriends_us : UdonSharpBehaviour
 {
     private VRCPlayerApi selectedPlayer;            // store and display a player
-    public Text displayText;
+    public TMPro.TextMeshProUGUI displayText;
 
     public Toggle hideMeToggle;                     // hide UI
-    public Text tipText;
+    public TMPro.TextMeshProUGUI tipText;
 
     private int scrollDir = 0;                      // private and synced vars for managing synced data about players
     private int scrollPos = 696969;
