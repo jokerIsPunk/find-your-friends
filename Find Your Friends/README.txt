@@ -15,3 +15,5 @@ Udon Sharp is not required for this prefab. You can safely delete the FindYourFr
 This prefab is available on github (github.com/jokerispunk) and I accept pull requests (you are encouraged to comment or talk to me first).
 
 Thanks to Fairly Sad Panda (github.com/fairlysadpanda) for networking guidance, and thanks always to the VRCPrefabs community (vrcprefabs.com).
+
+Thanks to Luna (github.com/harleyknd1) for greatly improving the look of the UI from my boring programmer art.
