@@ -12,276 +12,275 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: FindYourFriends
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 01044b43da71c8748986f9e084fa115d,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 998c07f1cf4d707498be66f916f1a562,
     type: 2}
-  udonAssembly: ".data_start\r\n\r\n    .export displayText\r\n    .export hideMeToggle\r\n
-    \   .export verboseLogging\r\n    .export tipText\r\n    .sync hiddenArray, none\r\n
-    \   .sync hiddenArrayLength, none\r\n    \r\n    Int32_0: %SystemInt32, null\r\n
-    \   instance_0: %VRCUdonUdonBehaviour, this\r\n    eventName_0: %SystemString,
-    null\r\n    Int32_1: %SystemInt32, null\r\n    instance_1: %VRCUdonUdonBehaviour,
-    this\r\n    eventName_1: %SystemString, null\r\n    Int32_2: %SystemInt32, null\r\n
-    \   Int32_3: %SystemInt32, null\r\n    Int32_4: %SystemInt32, null\r\n    players_0:
-    %VRCSDKBaseVRCPlayerApiArray, null\r\n    index_0: %SystemInt32, null\r\n    condition_0:
-    %SystemBoolean, null\r\n    start_0: %SystemInt32, null\r\n    end_0: %SystemInt32,
-    null\r\n    step_0: %SystemInt32, null\r\n    object_0: %SystemObject, null\r\n
-    \   instance_2: %VRCSDKBaseVRCPlayerApiArray, null\r\n    Int32_5: %SystemInt32,
-    null\r\n    result_0: %SystemBoolean, null\r\n    instance_3: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    instance_4: %VRCSDKBaseVRCPlayerApiArray, null\r\n    Int32_6: %SystemInt32,
-    null\r\n    players_1: %VRCSDKBaseVRCPlayerApiArray, null\r\n    Boolean_0: %SystemBoolean,
-    null\r\n    index_1: %SystemInt32, null\r\n    condition_1: %SystemBoolean, null\r\n
-    \   Boolean_1: %SystemBoolean, null\r\n    Boolean_2: %SystemBoolean, null\r\n
-    \   Int32_7: %SystemInt32, null\r\n    Int32_8: %SystemInt32, null\r\n    instance_5:
-    %SystemInt32Array, null\r\n    Int32_9: %SystemInt32, null\r\n    start_1: %SystemInt32,
-    null\r\n    end_1: %SystemInt32, null\r\n    step_1: %SystemInt32, null\r\n    Boolean_3:
-    %SystemBoolean, null\r\n    Boolean_4: %SystemBoolean, null\r\n    instance_6:
-    %VRCSDKBaseVRCPlayerApiArray, null\r\n    value_0: %SystemObject, null\r\n    index_2:
-    %SystemInt32, null\r\n    playerId_0: %SystemInt32, null\r\n    Int32_A: %SystemInt32,
-    null\r\n    Int32_B: %SystemInt32, null\r\n    Boolean_5: %SystemBoolean, null\r\n
-    \   Int32_C: %SystemInt32, null\r\n    Int32_D: %SystemInt32, null\r\n    Int32_E:
-    %SystemInt32, null\r\n    Int32_F: %SystemInt32, null\r\n    value_1: %SystemInt32,
-    null\r\n    object_1: %SystemObject, null\r\n    result_1: %SystemBoolean, null\r\n
-    \   instance_7: %VRCSDKBaseVRCPlayerApiArray, null\r\n    Int32_10: %SystemInt32,
-    null\r\n    instance_8: %UnityEngineUIText, null\r\n    value_2: %SystemString,
-    null\r\n    VRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null\r\n    message_0: %SystemObject,
-    null\r\n    format_0: %SystemString, null\r\n    arg0_0: %SystemObject, null\r\n
-    \   arg1_0: %SystemObject, null\r\n    arg2_0: %SystemObject, null\r\n    object_2:
-    %SystemObject, null\r\n    result_2: %SystemBoolean, null\r\n    instance_9: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    teleportPos_0: %UnityEngineVector3, null\r\n    teleportRot_0: %UnityEngineQuaternion,
-    null\r\n    instance_A: %VRCSDKBaseVRCPlayerApi, null\r\n    instance_B: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    player_0: %VRCSDKBaseVRCPlayerApi, null\r\n    obj_0: %UnityEngineGameObject,
-    this\r\n    instance_C: %VRCUdonUdonBehaviour, this\r\n    eventName_2: %SystemString,
-    null\r\n    message_1: %SystemObject, null\r\n    String_0: %SystemString, null\r\n
-    \   Boolean_6: %SystemBoolean, null\r\n    instance_D: %UnityEngineUIToggle, null\r\n
-    \   instance_E: %VRCUdonUdonBehaviour, this\r\n    eventName_3: %SystemString,
-    null\r\n    instance_F: %VRCUdonUdonBehaviour, this\r\n    eventName_4: %SystemString,
-    null\r\n    message_2: %SystemObject, null\r\n    String_1: %SystemString, null\r\n
-    \   Boolean_7: %SystemBoolean, null\r\n    index_3: %SystemInt32, null\r\n    condition_2:
-    %SystemBoolean, null\r\n    Boolean_8: %SystemBoolean, null\r\n    start_2: %SystemInt32,
-    null\r\n    end_2: %SystemInt32, null\r\n    step_2: %SystemInt32, null\r\n    instance_10:
-    %SystemInt32Array, null\r\n    object_3: %SystemObject, null\r\n    playerId_1:
-    %SystemInt32, null\r\n    instance_11: %SystemInt32Array, null\r\n    Int32_11:
-    %SystemInt32, null\r\n    result_3: %SystemBoolean, null\r\n    instance_12: %SystemInt32Array,
-    null\r\n    value_3: %SystemObject, null\r\n    index_4: %SystemInt32, null\r\n
-    \   instance_13: %VRCSDKBaseVRCPlayerApi, null\r\n    Boolean_9: %SystemBoolean,
-    null\r\n    message_3: %SystemObject, null\r\n    format_1: %SystemString, null\r\n
-    \   arg0_1: %SystemObject, null\r\n    Boolean_A: %SystemBoolean, null\r\n    Int32_12:
-    %SystemInt32, null\r\n    Int32_13: %SystemInt32, null\r\n    value_4: %SystemInt32,
-    null\r\n    min_0: %SystemInt32, null\r\n    max_0: %SystemInt32, null\r\n    Int32_14:
-    %SystemInt32, null\r\n    Int32_15: %SystemInt32, null\r\n    message_4: %SystemObject,
-    null\r\n    format_2: %SystemString, null\r\n    arg0_2: %SystemObject, null\r\n
-    \   instance_14: %UnityEngineUIText, null\r\n    value_5: %SystemString, null\r\n
-    \   instance_15: %VRCUdonUdonBehaviour, this\r\n    message_5: %SystemObject,
-    null\r\n    String_2: %SystemString, null\r\n    index_5: %SystemInt32, null\r\n
-    \   condition_3: %SystemBoolean, null\r\n    start_3: %SystemInt32, null\r\n    end_3:
-    %SystemInt32, null\r\n    step_3: %SystemInt32, null\r\n    instance_16: %SystemInt32Array,
-    null\r\n    Boolean_B: %SystemBoolean, null\r\n    Int32_16: %SystemInt32, null\r\n
-    \   Int32_17: %SystemInt32, null\r\n    instance_17: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    instance_18: %SystemInt32Array, null\r\n    Int32_18: %SystemInt32,
-    null\r\n    instance_19: %SystemInt32Array, null\r\n    value_6: %SystemObject,
-    null\r\n    index_6: %SystemInt32, null\r\n    Int32_19: %SystemInt32, null\r\n
-    \   message_6: %SystemObject, null\r\n    format_3: %SystemString, null\r\n    arg0_3:
-    %SystemObject, null\r\n    instance_1A: %VRCUdonUdonBehaviour, this\r\n    instance_1B:
-    %UnityEngineUIText, null\r\n    value_7: %SystemString, null\r\n    Int32_1A:
-    %SystemInt32, null\r\n    Int32_1B: %SystemInt32, null\r\n    Int32_1C: %SystemInt32,
-    null\r\n    Boolean_C: %SystemBoolean, null\r\n    Boolean_D: %SystemBoolean,
-    null\r\n    Int32_1D: %SystemInt32, null\r\n    Int32_1E: %SystemInt32, null\r\n
-    \   message_7: %SystemObject, null\r\n    format_4: %SystemString, null\r\n    arg0_4:
-    %SystemObject, null\r\n    scrollPos: %SystemInt32, null\r\n    scrollDir: %SystemInt32,
-    null\r\n    indexVisiblePlayers: %SystemInt32, null\r\n    selectedPlayer: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    displayText: %UnityEngineUIText, null\r\n    hiddenArray: %SystemInt32Array,
+  udonAssembly: ".data_start\r\n\r\n    .export A3\r\n    .export hideMeToggle\r\n   
+    .export verboseLogging\r\n    .export A2\r\n    .sync hiddenArray, none\r\n   
+    .sync hiddenArrayLength, none\r\n    \r\n    __Int32_0: %SystemInt32, null\r\n   
+    __instance_0: %VRCUdonUdonBehaviour, this\r\n    __eventName_0: %SystemString,
+    null\r\n    __Int32_1: %SystemInt32, null\r\n    __instance_1: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_1: %SystemString, null\r\n    __Int32_2: %SystemInt32,
+    null\r\n    __Int32_3: %SystemInt32, null\r\n    __Int32_4: %SystemInt32, null\r\n   
+    __players_0: %VRCSDKBaseVRCPlayerApiArray, null\r\n    __index_0: %SystemInt32,
+    null\r\n    __condition_0: %SystemBoolean, null\r\n    __start_0: %SystemInt32,
+    null\r\n    __end_0: %SystemInt32, null\r\n    __step_0: %SystemInt32, null\r\n   
+    __object_0: %SystemObject, null\r\n    __instance_2: %VRCSDKBaseVRCPlayerApiArray,
+    null\r\n    __Int32_5: %SystemInt32, null\r\n    __result_0: %SystemBoolean,
+    null\r\n    __instance_3: %VRCSDKBaseVRCPlayerApi, null\r\n    __instance_4:
+    %VRCSDKBaseVRCPlayerApiArray, null\r\n    __Int32_6: %SystemInt32, null\r\n   
+    __players_1: %VRCSDKBaseVRCPlayerApiArray, null\r\n    __Boolean_0: %SystemBoolean,
+    null\r\n    __index_1: %SystemInt32, null\r\n    __condition_1: %SystemBoolean,
+    null\r\n    __Boolean_1: %SystemBoolean, null\r\n    __Boolean_2: %SystemBoolean,
+    null\r\n    __Int32_7: %SystemInt32, null\r\n    __Int32_8: %SystemInt32, null\r\n   
+    __instance_5: %SystemInt32Array, null\r\n    __Int32_9: %SystemInt32, null\r\n   
+    __start_1: %SystemInt32, null\r\n    __end_1: %SystemInt32, null\r\n    __step_1:
+    %SystemInt32, null\r\n    __Boolean_3: %SystemBoolean, null\r\n    __Boolean_4:
+    %SystemBoolean, null\r\n    __instance_6: %VRCSDKBaseVRCPlayerApiArray, null\r\n   
+    __value_0: %SystemObject, null\r\n    __index_2: %SystemInt32, null\r\n    __playerId_0:
+    %SystemInt32, null\r\n    __Int32_A: %SystemInt32, null\r\n    __Int32_B: %SystemInt32,
+    null\r\n    __Boolean_5: %SystemBoolean, null\r\n    __Int32_C: %SystemInt32,
+    null\r\n    __Int32_D: %SystemInt32, null\r\n    __Int32_E: %SystemInt32, null\r\n   
+    __Int32_F: %SystemInt32, null\r\n    __value_1: %SystemInt32, null\r\n    __object_1:
+    %SystemObject, null\r\n    __result_1: %SystemBoolean, null\r\n    __instance_7:
+    %VRCSDKBaseVRCPlayerApiArray, null\r\n    __Int32_10: %SystemInt32, null\r\n   
+    __instance_8: %UnityEngineUIText, null\r\n    __value_2: %SystemString, null\r\n   
+    __VRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null\r\n    __message_0: %SystemObject,
+    null\r\n    __format_0: %SystemString, null\r\n    __arg0_0: %SystemObject, null\r\n   
+    __arg1_0: %SystemObject, null\r\n    __arg2_0: %SystemObject, null\r\n    __object_2:
+    %SystemObject, null\r\n    __result_2: %SystemBoolean, null\r\n    __instance_9:
+    %VRCSDKBaseVRCPlayerApi, null\r\n    __teleportPos_0: %UnityEngineVector3, null\r\n   
+    __teleportRot_0: %UnityEngineQuaternion, null\r\n    __instance_A: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __instance_B: %VRCSDKBaseVRCPlayerApi, null\r\n    __player_0: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __obj_0: %UnityEngineGameObject, this\r\n    __instance_C: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_2: %SystemString, null\r\n    __message_1: %SystemObject,
+    null\r\n    __String_0: %SystemString, null\r\n    __Boolean_6: %SystemBoolean,
+    null\r\n    __instance_D: %UnityEngineUIToggle, null\r\n    __instance_E: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_3: %SystemString, null\r\n    __instance_F: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_4: %SystemString, null\r\n    __message_2: %SystemObject,
+    null\r\n    __String_1: %SystemString, null\r\n    __Boolean_7: %SystemBoolean,
+    null\r\n    __index_3: %SystemInt32, null\r\n    __condition_2: %SystemBoolean,
+    null\r\n    __Boolean_8: %SystemBoolean, null\r\n    __start_2: %SystemInt32,
+    null\r\n    __end_2: %SystemInt32, null\r\n    __step_2: %SystemInt32, null\r\n   
+    __instance_10: %SystemInt32Array, null\r\n    __object_3: %SystemObject, null\r\n   
+    __playerId_1: %SystemInt32, null\r\n    __instance_11: %SystemInt32Array, null\r\n   
+    __Int32_11: %SystemInt32, null\r\n    __result_3: %SystemBoolean, null\r\n   
+    __instance_12: %SystemInt32Array, null\r\n    __value_3: %SystemObject, null\r\n   
+    __index_4: %SystemInt32, null\r\n    __instance_13: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __Boolean_9: %SystemBoolean, null\r\n    __message_3: %SystemObject,
+    null\r\n    __format_1: %SystemString, null\r\n    __arg0_1: %SystemObject, null\r\n   
+    __Boolean_A: %SystemBoolean, null\r\n    __Int32_12: %SystemInt32, null\r\n   
+    __Int32_13: %SystemInt32, null\r\n    __value_4: %SystemInt32, null\r\n    __min_0:
+    %SystemInt32, null\r\n    __max_0: %SystemInt32, null\r\n    __Int32_14: %SystemInt32,
+    null\r\n    __Int32_15: %SystemInt32, null\r\n    __message_4: %SystemObject,
+    null\r\n    __format_2: %SystemString, null\r\n    __arg0_2: %SystemObject, null\r\n   
+    __instance_14: %UnityEngineUIText, null\r\n    __value_5: %SystemString, null\r\n   
+    __instance_15: %VRCUdonUdonBehaviour, this\r\n    __message_5: %SystemObject,
+    null\r\n    __String_2: %SystemString, null\r\n    __index_5: %SystemInt32, null\r\n   
+    __condition_3: %SystemBoolean, null\r\n    __start_3: %SystemInt32, null\r\n   
+    __end_3: %SystemInt32, null\r\n    __step_3: %SystemInt32, null\r\n    __instance_16:
+    %SystemInt32Array, null\r\n    __Boolean_B: %SystemBoolean, null\r\n    __Int32_16:
+    %SystemInt32, null\r\n    __Int32_17: %SystemInt32, null\r\n    __instance_17:
+    %VRCSDKBaseVRCPlayerApi, null\r\n    __instance_18: %SystemInt32Array, null\r\n   
+    __Int32_18: %SystemInt32, null\r\n    __instance_19: %SystemInt32Array, null\r\n   
+    __value_6: %SystemObject, null\r\n    __index_6: %SystemInt32, null\r\n    __Int32_19:
+    %SystemInt32, null\r\n    __message_6: %SystemObject, null\r\n    __format_3:
+    %SystemString, null\r\n    __arg0_3: %SystemObject, null\r\n    __instance_1A:
+    %VRCUdonUdonBehaviour, this\r\n    __instance_1B: %UnityEngineUIText, null\r\n   
+    __value_7: %SystemString, null\r\n    __Int32_1A: %SystemInt32, null\r\n    __Int32_1B:
+    %SystemInt32, null\r\n    __Int32_1C: %SystemInt32, null\r\n    __Boolean_C:
+    %SystemBoolean, null\r\n    __Boolean_D: %SystemBoolean, null\r\n    __Int32_1D:
+    %SystemInt32, null\r\n    __Int32_1E: %SystemInt32, null\r\n    __message_7:
+    %SystemObject, null\r\n    __format_4: %SystemString, null\r\n    __arg0_4: %SystemObject,
+    null\r\n    scrollPos: %SystemInt32, null\r\n    scrollDir: %SystemInt32, null\r\n   
+    indexVisiblePlayers: %SystemInt32, null\r\n    selectedPlayer: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    A3: %UnityEngineUIText, null\r\n    hiddenArray: %SystemInt32Array,
     null\r\n    hideMeToggle: %UnityEngineUIToggle, null\r\n    indexHidden: %SystemInt32,
     null\r\n    searching: %SystemBoolean, null\r\n    visiblePlayers: %VRCSDKBaseVRCPlayerApiArray,
     null\r\n    visiblePlayersSize: %SystemInt32, null\r\n    allPlayers: %VRCSDKBaseVRCPlayerApiArray,
     null\r\n    hiddenArrayLength: %SystemInt32, null\r\n    idCache: %SystemInt32,
     null\r\n    indexAllPlayers: %SystemInt32, null\r\n    foundHidden: %SystemBoolean,
-    null\r\n    hiddenArrayLengthLast: %SystemInt32, null\r\n    verboseLogging: %SystemBoolean,
-    null\r\n    tipText: %UnityEngineUIText, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
-    \   .export _Right\r\n    \r\n    _Right:\r\n    \r\n        PUSH, Int32_0\r\n
-    \       PUSH, scrollDir\r\n        COPY\r\n        PUSH, instance_0\r\n        PUSH,
-    eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Left\r\n    \r\n    _Left:\r\n
-    \   \r\n        PUSH, Int32_1\r\n        PUSH, scrollDir\r\n        COPY\r\n        PUSH,
-    instance_1\r\n        PUSH, eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Scroll\r\n    \r\n    _Scroll:\r\n
-    \   \r\n        PUSH, scrollPos\r\n        PUSH, scrollDir\r\n        PUSH, scrollPos\r\n
-    \       EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       PUSH, Int32_4\r\n        PUSH, visiblePlayersSize\r\n        COPY\r\n
-    \       PUSH, allPlayers\r\n        PUSH, players_0\r\n        COPY\r\n        PUSH,
-    players_0\r\n        PUSH, allPlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray\"\r\n
-    \       PUSH, end_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\"\r\n
-    \       PUSH, start_0\r\n        PUSH, index_0\r\n        COPY\r\n        PUSH,
-    index_0\r\n        PUSH, end_0\r\n        PUSH, condition_0\r\n        EXTERN,
-    \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n        PUSH,
-    condition_0\r\n        JUMP_IF_FALSE, 0x000003D0\r\n        PUSH, index_0\r\n
-    \       PUSH, indexAllPlayers\r\n        COPY\r\n        PUSH, allPlayers\r\n
-    \       PUSH, instance_2\r\n        COPY\r\n        PUSH, instance_2\r\n        PUSH,
-    indexAllPlayers\r\n        PUSH, object_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, object_0\r\n        PUSH, result_0\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n
-    \       PUSH, result_0\r\n        JUMP_IF_FALSE, 0x000003A8\r\n        PUSH, allPlayers\r\n
-    \       PUSH, players_1\r\n        COPY\r\n        PUSH, players_1\r\n        PUSH,
-    instance_4\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray\"\r\n
-    \       PUSH, instance_4\r\n        PUSH, indexAllPlayers\r\n        PUSH, instance_3\r\n
-    \       EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, instance_3\r\n        PUSH, idCache\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n
-    \       PUSH, Boolean_0\r\n        PUSH, foundHidden\r\n        COPY\r\n        PUSH,
-    start_1\r\n        PUSH, index_1\r\n        COPY\r\n        PUSH, index_1\r\n
-    \       PUSH, hiddenArrayLength\r\n        PUSH, condition_1\r\n        EXTERN,
-    \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n        PUSH,
-    condition_1\r\n        JUMP_IF_FALSE, 0x0000031C\r\n        PUSH, foundHidden\r\n
-    \       JUMP_IF_FALSE, 0x00000260\r\n        JUMP, 0x000002F4\r\n        PUSH,
-    hiddenArray\r\n        PUSH, instance_5\r\n        COPY\r\n        PUSH, index_1\r\n
-    \       PUSH, Int32_9\r\n        COPY\r\n        PUSH, instance_5\r\n        PUSH,
-    Int32_9\r\n        PUSH, Int32_8\r\n        EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n
-    \       PUSH, idCache\r\n        PUSH, Int32_8\r\n        PUSH, Boolean_2\r\n
-    \       EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, Boolean_2\r\n        JUMP_IF_FALSE, 0x000002F4\r\n        PUSH,
-    Boolean_3\r\n        PUSH, foundHidden\r\n        COPY\r\n        JUMP, 0x000002F4\r\n
-    \       PUSH, index_1\r\n        PUSH, step_1\r\n        PUSH, index_1\r\n        EXTERN,
-    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n        JUMP,
-    0x00000218\r\n        PUSH, foundHidden\r\n        JUMP_IF_FALSE, 0x00000334\r\n
-    \       JUMP, 0x000003A0\r\n        PUSH, visiblePlayers\r\n        PUSH, instance_6\r\n
-    \       COPY\r\n        PUSH, idCache\r\n        PUSH, value_0\r\n        EXTERN,
-    \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, instance_6\r\n        PUSH, value_0\r\n        PUSH, visiblePlayersSize\r\n
-    \       EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n
-    \       PUSH, Int32_A\r\n        PUSH, visiblePlayersSize\r\n        PUSH, visiblePlayersSize\r\n
-    \       EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       JUMP, 0x000003A8\r\n        PUSH, index_0\r\n        PUSH, step_0\r\n
-    \       PUSH, index_0\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       JUMP, 0x000000EC\r\n        PUSH, visiblePlayersSize\r\n        PUSH,
-    Int32_D\r\n        PUSH, Boolean_5\r\n        EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, Boolean_5\r\n        JUMP_IF_FALSE, 0x00000538\r\n        PUSH,
-    scrollPos\r\n        PUSH, Int32_E\r\n        EXTERN, \"UnityEngineMathf.__Abs__SystemInt32__SystemInt32\"\r\n
-    \       PUSH, Int32_E\r\n        PUSH, visiblePlayersSize\r\n        PUSH, indexVisiblePlayers\r\n
-    \       EXTERN, \"SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       PUSH, visiblePlayers\r\n        PUSH, instance_7\r\n        COPY\r\n        PUSH,
-    instance_7\r\n        PUSH, indexVisiblePlayers\r\n        PUSH, object_1\r\n
-    \       EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, object_1\r\n        PUSH, result_1\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n
-    \       PUSH, result_1\r\n        JUMP_IF_FALSE, 0x00000530\r\n        PUSH, visiblePlayers\r\n
-    \       PUSH, instance_7\r\n        COPY\r\n        PUSH, object_1\r\n        PUSH,
-    selectedPlayer\r\n        COPY\r\n        PUSH, object_1\r\n        PUSH, selectedPlayer\r\n
-    \       COPY\r\n        PUSH, displayText\r\n        PUSH, instance_8\r\n        COPY\r\n
-    \       PUSH, selectedPlayer\r\n        PUSH, VRCPlayerApi_0\r\n        COPY\r\n
-    \       PUSH, VRCPlayerApi_0\r\n        PUSH, value_2\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n
-    \       PUSH, instance_8\r\n        PUSH, value_2\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0x00000530\r\n        JUMP, 0x00000538\r\n        PUSH, arg0_0\r\n
-    \       EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\"\r\n        PUSH,
-    format_0\r\n        PUSH, arg0_0\r\n        PUSH, hiddenArrayLength\r\n        PUSH,
-    visiblePlayersSize\r\n        PUSH, message_0\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString\"\r\n
-    \       PUSH, message_0\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Teleport\r\n    \r\n    _Teleport:\r\n
-    \   \r\n        PUSH, selectedPlayer\r\n        PUSH, object_2\r\n        COPY\r\n
-    \       PUSH, object_2\r\n        PUSH, result_2\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n
-    \       PUSH, result_2\r\n        JUMP_IF_FALSE, 0x0000065C\r\n        PUSH, instance_9\r\n
-    \       EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, selectedPlayer\r\n        PUSH, instance_A\r\n        COPY\r\n        PUSH,
-    instance_A\r\n        PUSH, teleportPos_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPosition__UnityEngineVector3\"\r\n
-    \       PUSH, selectedPlayer\r\n        PUSH, instance_B\r\n        COPY\r\n        PUSH,
-    instance_B\r\n        PUSH, teleportRot_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetRotation__UnityEngineQuaternion\"\r\n
-    \       PUSH, instance_9\r\n        PUSH, teleportPos_0\r\n        PUSH, teleportRot_0\r\n
-    \       EXTERN, \"VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\"\r\n
-    \       JUMP, 0x0000065C\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _HideToggle\r\n
-    \   \r\n    _HideToggle:\r\n    \r\n        PUSH, player_0\r\n        EXTERN,
-    \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n        PUSH,
-    player_0\r\n        PUSH, obj_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n
-    \       PUSH, instance_C\r\n        PUSH, eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _UpdateHideState\r\n    \r\n    _UpdateHideState:\r\n
-    \   \r\n        PUSH, String_0\r\n        PUSH, message_1\r\n        COPY\r\n
-    \       PUSH, message_1\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       PUSH, hideMeToggle\r\n        PUSH, instance_D\r\n        COPY\r\n        PUSH,
-    instance_D\r\n        PUSH, Boolean_6\r\n        EXTERN, \"UnityEngineUIToggle.__get_isOn__SystemBoolean\"\r\n
-    \       PUSH, Boolean_6\r\n        JUMP_IF_FALSE, 0x0000072C\r\n        PUSH,
-    instance_E\r\n        PUSH, eventName_3\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0x00000744\r\n        PUSH, instance_F\r\n        PUSH, eventName_4\r\n
-    \       EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _AddToArray\r\n    \r\n    _AddToArray:\r\n
-    \   \r\n        PUSH, String_1\r\n        PUSH, message_2\r\n        COPY\r\n
-    \       PUSH, message_2\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       PUSH, Boolean_7\r\n        PUSH, searching\r\n        COPY\r\n        PUSH,
-    hiddenArray\r\n        PUSH, instance_10\r\n        COPY\r\n        PUSH, instance_10\r\n
-    \       PUSH, end_2\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n
-    \       PUSH, start_2\r\n        PUSH, index_3\r\n        COPY\r\n        PUSH,
-    index_3\r\n        PUSH, end_2\r\n        PUSH, condition_2\r\n        EXTERN,
-    \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n        PUSH,
-    condition_2\r\n        JUMP_IF_FALSE, 0x00000A54\r\n        PUSH, searching\r\n
-    \       JUMP_IF_FALSE, 0x00000A2C\r\n        PUSH, hiddenArray\r\n        PUSH,
-    instance_10\r\n        COPY\r\n        PUSH, index_3\r\n        PUSH, indexHidden\r\n
-    \       COPY\r\n        PUSH, hiddenArray\r\n        PUSH, instance_11\r\n        COPY\r\n
-    \       PUSH, instance_11\r\n        PUSH, indexHidden\r\n        PUSH, playerId_1\r\n
-    \       EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH,
-    playerId_1\r\n        PUSH, object_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, object_3\r\n        PUSH, result_3\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n
-    \       PUSH, result_3\r\n        JUMP_IF_FALSE, 0x000008A8\r\n        JUMP, 0x00000A24\r\n
-    \       PUSH, hiddenArray\r\n        PUSH, instance_12\r\n        COPY\r\n        PUSH,
-    instance_13\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, instance_13\r\n        PUSH, value_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n
-    \       PUSH, instance_12\r\n        PUSH, value_3\r\n        PUSH, indexHidden\r\n
-    \       EXTERN, \"SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n
-    \       PUSH, Boolean_9\r\n        PUSH, searching\r\n        COPY\r\n        PUSH,
-    format_1\r\n        PUSH, indexHidden\r\n        PUSH, message_3\r\n        EXTERN,
-    \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n        PUSH,
-    message_3\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       PUSH, indexHidden\r\n        PUSH, hiddenArrayLength\r\n        PUSH,
-    Boolean_A\r\n        EXTERN, \"SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, Boolean_A\r\n        JUMP_IF_FALSE, 0x000009F8\r\n        PUSH,
-    Int32_14\r\n        PUSH, hiddenArrayLength\r\n        PUSH, value_4\r\n        EXTERN,
-    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n        PUSH,
-    value_4\r\n        PUSH, min_0\r\n        PUSH, max_0\r\n        PUSH, hiddenArrayLength\r\n
-    \       EXTERN, \"UnityEngineMathf.__Clamp__SystemInt32_SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       PUSH, format_2\r\n        PUSH, hiddenArrayLength\r\n        PUSH, message_4\r\n
-    \       EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
-    \       PUSH, message_4\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       JUMP, 0x000009F8\r\n        PUSH, tipText\r\n        PUSH, instance_14\r\n
-    \       COPY\r\n        PUSH, instance_14\r\n        PUSH, value_5\r\n        EXTERN,
-    \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n        JUMP, 0x00000A2C\r\n
-    \       PUSH, index_3\r\n        PUSH, step_2\r\n        PUSH, index_3\r\n        EXTERN,
-    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n        JUMP,
-    0x000007C4\r\n        PUSH, instance_15\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _RemoveFromArray\r\n    \r\n    _RemoveFromArray:\r\n
-    \   \r\n        PUSH, String_2\r\n        PUSH, message_5\r\n        COPY\r\n
-    \       PUSH, message_5\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       PUSH, hiddenArray\r\n        PUSH, instance_16\r\n        COPY\r\n        PUSH,
-    instance_16\r\n        PUSH, end_3\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n
-    \       PUSH, start_3\r\n        PUSH, index_5\r\n        COPY\r\n        PUSH,
-    index_5\r\n        PUSH, end_3\r\n        PUSH, condition_3\r\n        EXTERN,
-    \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n        PUSH,
-    condition_3\r\n        JUMP_IF_FALSE, 0x00000C5C\r\n        PUSH, hiddenArray\r\n
-    \       PUSH, instance_16\r\n        COPY\r\n        PUSH, index_5\r\n        PUSH,
-    indexHidden\r\n        COPY\r\n        PUSH, instance_17\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n
-    \       PUSH, instance_17\r\n        PUSH, Int32_16\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n
-    \       PUSH, hiddenArray\r\n        PUSH, instance_18\r\n        COPY\r\n        PUSH,
-    instance_18\r\n        PUSH, indexHidden\r\n        PUSH, Int32_17\r\n        EXTERN,
-    \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH, Int32_16\r\n
-    \       PUSH, Int32_17\r\n        PUSH, Boolean_B\r\n        EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, Boolean_B\r\n        JUMP_IF_FALSE, 0x00000C34\r\n        PUSH,
-    hiddenArray\r\n        PUSH, instance_19\r\n        COPY\r\n        PUSH, Int32_19\r\n
-    \       PUSH, value_6\r\n        COPY\r\n        PUSH, instance_19\r\n        PUSH,
-    value_6\r\n        PUSH, indexHidden\r\n        EXTERN, \"SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n
-    \       PUSH, format_3\r\n        PUSH, indexHidden\r\n        PUSH, message_6\r\n
-    \       EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n
-    \       PUSH, message_6\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       JUMP, 0x00000C34\r\n        PUSH, index_5\r\n        PUSH, step_3\r\n
-    \       PUSH, index_5\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n
-    \       JUMP, 0x00000AD0\r\n        PUSH, instance_1A\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n
-    \       PUSH, tipText\r\n        PUSH, instance_1B\r\n        COPY\r\n        PUSH,
-    instance_1B\r\n        PUSH, value_7\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _start\r\n    \r\n    _start:\r\n
-    \   \r\n        PUSH, Int32_1A\r\n        PUSH, allPlayers\r\n        EXTERN,
-    \"VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray\"\r\n
-    \       PUSH, Int32_1B\r\n        PUSH, visiblePlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray\"\r\n
-    \       PUSH, Int32_1C\r\n        PUSH, hiddenArray\r\n        EXTERN, \"SystemInt32Array.__ctor__SystemInt32__SystemInt32Array\"\r\n
-    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n
-    \   _onDeserialization:\r\n    \r\n        PUSH, verboseLogging\r\n        JUMP_IF_FALSE,
-    0x00000D84\r\n        PUSH, hiddenArrayLength\r\n        PUSH, hiddenArrayLengthLast\r\n
-    \       PUSH, Boolean_D\r\n        EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n
-    \       PUSH, Boolean_D\r\n        JUMP_IF_FALSE, 0x00000D7C\r\n        PUSH,
-    hiddenArrayLength\r\n        PUSH, hiddenArrayLengthLast\r\n        COPY\r\n        PUSH,
-    format_4\r\n        PUSH, hiddenArrayLength\r\n        PUSH, message_7\r\n        EXTERN,
-    \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n        PUSH,
-    message_7\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n
-    \       JUMP, 0x00000D7C\r\n        JUMP, 0x00000D84\r\n        JUMP, 0xFFFFFFFC\r\n
-    \   \r\n\r\n.code_end\r\n"
+    null\r\n    hiddenArrayLengthLast: %SystemInt32, null\r\n    verboseLogging:
+    %SystemBoolean, null\r\n    A2: %UnityEngineUIText, null\r\n    tipText: %TMProTextMeshProUGUI,
+    null\r\n    displayText: %TMProTextMeshProUGUI, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export _Right\r\n    \r\n    _Right:\r\n    \r\n        PUSH, __Int32_0\r\n       
+    PUSH, scrollDir\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
+    __eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Left\r\n    \r\n    _Left:\r\n    \r\n       
+    PUSH, __Int32_1\r\n        PUSH, scrollDir\r\n        COPY\r\n        PUSH, __instance_1\r\n       
+    PUSH, __eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Scroll\r\n    \r\n    _Scroll:\r\n   
+    \r\n        PUSH, scrollPos\r\n        PUSH, scrollDir\r\n        PUSH, scrollPos\r\n       
+    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    PUSH, __Int32_4\r\n        PUSH, visiblePlayersSize\r\n        COPY\r\n       
+    PUSH, allPlayers\r\n        PUSH, __players_0\r\n        COPY\r\n        PUSH,
+    __players_0\r\n        PUSH, allPlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray\"\r\n       
+    PUSH, __end_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\"\r\n       
+    PUSH, __start_0\r\n        PUSH, __index_0\r\n        COPY\r\n        PUSH, __index_0\r\n       
+    PUSH, __end_0\r\n        PUSH, __condition_0\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __condition_0\r\n        JUMP_IF_FALSE, 0x000003D0\r\n        PUSH, __index_0\r\n       
+    PUSH, indexAllPlayers\r\n        COPY\r\n        PUSH, allPlayers\r\n       
+    PUSH, __instance_2\r\n        COPY\r\n        PUSH, __instance_2\r\n        PUSH,
+    indexAllPlayers\r\n        PUSH, __object_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __object_0\r\n        PUSH, __result_0\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
+    PUSH, __result_0\r\n        JUMP_IF_FALSE, 0x000003A8\r\n        PUSH, allPlayers\r\n       
+    PUSH, __players_1\r\n        COPY\r\n        PUSH, __players_1\r\n        PUSH,
+    __instance_4\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray\"\r\n       
+    PUSH, __instance_4\r\n        PUSH, indexAllPlayers\r\n        PUSH, __instance_3\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __instance_3\r\n        PUSH, idCache\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n       
+    PUSH, __Boolean_0\r\n        PUSH, foundHidden\r\n        COPY\r\n        PUSH,
+    __start_1\r\n        PUSH, __index_1\r\n        COPY\r\n        PUSH, __index_1\r\n       
+    PUSH, hiddenArrayLength\r\n        PUSH, __condition_1\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __condition_1\r\n        JUMP_IF_FALSE, 0x0000031C\r\n        PUSH, foundHidden\r\n       
+    JUMP_IF_FALSE, 0x00000260\r\n        JUMP, 0x000002F4\r\n        PUSH, hiddenArray\r\n       
+    PUSH, __instance_5\r\n        COPY\r\n        PUSH, __index_1\r\n        PUSH,
+    __Int32_9\r\n        COPY\r\n        PUSH, __instance_5\r\n        PUSH, __Int32_9\r\n       
+    PUSH, __Int32_8\r\n        EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n       
+    PUSH, idCache\r\n        PUSH, __Int32_8\r\n        PUSH, __Boolean_2\r\n       
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __Boolean_2\r\n        JUMP_IF_FALSE, 0x000002F4\r\n        PUSH, __Boolean_3\r\n       
+    PUSH, foundHidden\r\n        COPY\r\n        JUMP, 0x000002F4\r\n        PUSH,
+    __index_1\r\n        PUSH, __step_1\r\n        PUSH, __index_1\r\n        EXTERN,
+    \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    JUMP, 0x00000218\r\n        PUSH, foundHidden\r\n        JUMP_IF_FALSE, 0x00000334\r\n       
+    JUMP, 0x000003A0\r\n        PUSH, visiblePlayers\r\n        PUSH, __instance_6\r\n       
+    COPY\r\n        PUSH, idCache\r\n        PUSH, __value_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __instance_6\r\n        PUSH, __value_0\r\n        PUSH, visiblePlayersSize\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n       
+    PUSH, __Int32_A\r\n        PUSH, visiblePlayersSize\r\n        PUSH, visiblePlayersSize\r\n       
+    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    JUMP, 0x000003A8\r\n        PUSH, __index_0\r\n        PUSH, __step_0\r\n       
+    PUSH, __index_0\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    JUMP, 0x000000EC\r\n        PUSH, visiblePlayersSize\r\n        PUSH, __Int32_D\r\n       
+    PUSH, __Boolean_5\r\n        EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __Boolean_5\r\n        JUMP_IF_FALSE, 0x00000524\r\n        PUSH, scrollPos\r\n       
+    PUSH, __Int32_E\r\n        EXTERN, \"UnityEngineMathf.__Abs__SystemInt32__SystemInt32\"\r\n       
+    PUSH, __Int32_E\r\n        PUSH, visiblePlayersSize\r\n        PUSH, indexVisiblePlayers\r\n       
+    EXTERN, \"SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    PUSH, visiblePlayers\r\n        PUSH, __instance_7\r\n        COPY\r\n       
+    PUSH, __instance_7\r\n        PUSH, indexVisiblePlayers\r\n        PUSH, __object_1\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __object_1\r\n        PUSH, __result_1\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
+    PUSH, __result_1\r\n        JUMP_IF_FALSE, 0x0000051C\r\n        PUSH, visiblePlayers\r\n       
+    PUSH, __instance_7\r\n        COPY\r\n        PUSH, __object_1\r\n        PUSH,
+    selectedPlayer\r\n        COPY\r\n        PUSH, __object_1\r\n        PUSH, selectedPlayer\r\n       
+    COPY\r\n        PUSH, selectedPlayer\r\n        PUSH, __VRCPlayerApi_0\r\n       
+    COPY\r\n        PUSH, __VRCPlayerApi_0\r\n        PUSH, __value_2\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n       
+    PUSH, __instance_8\r\n        PUSH, __value_2\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x0000051C\r\n        JUMP, 0x00000524\r\n        PUSH, __arg0_0\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\"\r\n        PUSH,
+    __format_0\r\n        PUSH, __arg0_0\r\n        PUSH, hiddenArrayLength\r\n       
+    PUSH, visiblePlayersSize\r\n        PUSH, __message_0\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString\"\r\n       
+    PUSH, __message_0\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Teleport\r\n    \r\n    _Teleport:\r\n   
+    \r\n        PUSH, selectedPlayer\r\n        PUSH, __object_2\r\n        COPY\r\n       
+    PUSH, __object_2\r\n        PUSH, __result_2\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
+    PUSH, __result_2\r\n        JUMP_IF_FALSE, 0x00000648\r\n        PUSH, __instance_9\r\n       
+    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, selectedPlayer\r\n        PUSH, __instance_A\r\n        COPY\r\n       
+    PUSH, __instance_A\r\n        PUSH, __teleportPos_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPosition__UnityEngineVector3\"\r\n       
+    PUSH, selectedPlayer\r\n        PUSH, __instance_B\r\n        COPY\r\n       
+    PUSH, __instance_B\r\n        PUSH, __teleportRot_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetRotation__UnityEngineQuaternion\"\r\n       
+    PUSH, __instance_9\r\n        PUSH, __teleportPos_0\r\n        PUSH, __teleportRot_0\r\n       
+    EXTERN, \"VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\"\r\n       
+    JUMP, 0x00000648\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _HideToggle\r\n   
+    \r\n    _HideToggle:\r\n    \r\n        PUSH, __player_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __player_0\r\n        PUSH, __obj_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n       
+    PUSH, __instance_C\r\n        PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _UpdateHideState\r\n    \r\n    _UpdateHideState:\r\n   
+    \r\n        PUSH, __String_0\r\n        PUSH, __message_1\r\n        COPY\r\n       
+    PUSH, __message_1\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    PUSH, hideMeToggle\r\n        PUSH, __instance_D\r\n        COPY\r\n        PUSH,
+    __instance_D\r\n        PUSH, __Boolean_6\r\n        EXTERN, \"UnityEngineUIToggle.__get_isOn__SystemBoolean\"\r\n       
+    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x00000718\r\n        PUSH, __instance_E\r\n       
+    PUSH, __eventName_3\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x00000730\r\n        PUSH, __instance_F\r\n        PUSH, __eventName_4\r\n       
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _AddToArray\r\n    \r\n    _AddToArray:\r\n   
+    \r\n        PUSH, __String_1\r\n        PUSH, __message_2\r\n        COPY\r\n       
+    PUSH, __message_2\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    PUSH, __Boolean_7\r\n        PUSH, searching\r\n        COPY\r\n        PUSH,
+    hiddenArray\r\n        PUSH, __instance_10\r\n        COPY\r\n        PUSH, __instance_10\r\n       
+    PUSH, __end_2\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n       
+    PUSH, __start_2\r\n        PUSH, __index_3\r\n        COPY\r\n        PUSH, __index_3\r\n       
+    PUSH, __end_2\r\n        PUSH, __condition_2\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __condition_2\r\n        JUMP_IF_FALSE, 0x00000A40\r\n        PUSH, searching\r\n       
+    JUMP_IF_FALSE, 0x00000A18\r\n        PUSH, hiddenArray\r\n        PUSH, __instance_10\r\n       
+    COPY\r\n        PUSH, __index_3\r\n        PUSH, indexHidden\r\n        COPY\r\n       
+    PUSH, hiddenArray\r\n        PUSH, __instance_11\r\n        COPY\r\n        PUSH,
+    __instance_11\r\n        PUSH, indexHidden\r\n        PUSH, __playerId_1\r\n       
+    EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH,
+    __playerId_1\r\n        PUSH, __object_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __object_3\r\n        PUSH, __result_3\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
+    PUSH, __result_3\r\n        JUMP_IF_FALSE, 0x00000894\r\n        JUMP, 0x00000A10\r\n       
+    PUSH, hiddenArray\r\n        PUSH, __instance_12\r\n        COPY\r\n        PUSH,
+    __instance_13\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __instance_13\r\n        PUSH, __value_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n       
+    PUSH, __instance_12\r\n        PUSH, __value_3\r\n        PUSH, indexHidden\r\n       
+    EXTERN, \"SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n       
+    PUSH, __Boolean_9\r\n        PUSH, searching\r\n        COPY\r\n        PUSH,
+    __format_1\r\n        PUSH, indexHidden\r\n        PUSH, __message_3\r\n       
+    EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
+    PUSH, __message_3\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    PUSH, indexHidden\r\n        PUSH, hiddenArrayLength\r\n        PUSH, __Boolean_A\r\n       
+    EXTERN, \"SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __Boolean_A\r\n        JUMP_IF_FALSE, 0x000009E4\r\n        PUSH, __Int32_14\r\n       
+    PUSH, hiddenArrayLength\r\n        PUSH, __value_4\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    PUSH, __value_4\r\n        PUSH, __min_0\r\n        PUSH, __max_0\r\n       
+    PUSH, hiddenArrayLength\r\n        EXTERN, \"UnityEngineMathf.__Clamp__SystemInt32_SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    PUSH, __format_2\r\n        PUSH, hiddenArrayLength\r\n        PUSH, __message_4\r\n       
+    EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
+    PUSH, __message_4\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    JUMP, 0x000009E4\r\n        PUSH, A2\r\n        PUSH, __instance_14\r\n       
+    COPY\r\n        PUSH, __instance_14\r\n        PUSH, __value_5\r\n        EXTERN,
+    \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n        JUMP, 0x00000A18\r\n       
+    PUSH, __index_3\r\n        PUSH, __step_2\r\n        PUSH, __index_3\r\n       
+    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    JUMP, 0x000007B0\r\n        PUSH, __instance_15\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _RemoveFromArray\r\n    \r\n    _RemoveFromArray:\r\n   
+    \r\n        PUSH, __String_2\r\n        PUSH, __message_5\r\n        COPY\r\n       
+    PUSH, __message_5\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    PUSH, hiddenArray\r\n        PUSH, __instance_16\r\n        COPY\r\n        PUSH,
+    __instance_16\r\n        PUSH, __end_3\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n       
+    PUSH, __start_3\r\n        PUSH, __index_5\r\n        COPY\r\n        PUSH, __index_5\r\n       
+    PUSH, __end_3\r\n        PUSH, __condition_3\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __condition_3\r\n        JUMP_IF_FALSE, 0x00000C48\r\n        PUSH, hiddenArray\r\n       
+    PUSH, __instance_16\r\n        COPY\r\n        PUSH, __index_5\r\n        PUSH,
+    indexHidden\r\n        COPY\r\n        PUSH, __instance_17\r\n        EXTERN,
+    \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
+    PUSH, __instance_17\r\n        PUSH, __Int32_16\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n       
+    PUSH, hiddenArray\r\n        PUSH, __instance_18\r\n        COPY\r\n        PUSH,
+    __instance_18\r\n        PUSH, indexHidden\r\n        PUSH, __Int32_17\r\n       
+    EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH,
+    __Int32_16\r\n        PUSH, __Int32_17\r\n        PUSH, __Boolean_B\r\n       
+    EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __Boolean_B\r\n        JUMP_IF_FALSE, 0x00000C20\r\n        PUSH, hiddenArray\r\n       
+    PUSH, __instance_19\r\n        COPY\r\n        PUSH, __Int32_19\r\n        PUSH,
+    __value_6\r\n        COPY\r\n        PUSH, __instance_19\r\n        PUSH, __value_6\r\n       
+    PUSH, indexHidden\r\n        EXTERN, \"SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n       
+    PUSH, __format_3\r\n        PUSH, indexHidden\r\n        PUSH, __message_6\r\n       
+    EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
+    PUSH, __message_6\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    JUMP, 0x00000C20\r\n        PUSH, __index_5\r\n        PUSH, __step_3\r\n       
+    PUSH, __index_5\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    JUMP, 0x00000ABC\r\n        PUSH, __instance_1A\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
+    PUSH, A2\r\n        PUSH, __instance_1B\r\n        COPY\r\n        PUSH, __instance_1B\r\n       
+    PUSH, __value_7\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _start\r\n    \r\n    _start:\r\n   
+    \r\n        PUSH, __Int32_1A\r\n        PUSH, allPlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray\"\r\n       
+    PUSH, __Int32_1B\r\n        PUSH, visiblePlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray\"\r\n       
+    PUSH, __Int32_1C\r\n        PUSH, hiddenArray\r\n        EXTERN, \"SystemInt32Array.__ctor__SystemInt32__SystemInt32Array\"\r\n       
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n    _onDeserialization:\r\n   
+    \r\n        PUSH, verboseLogging\r\n        JUMP_IF_FALSE, 0x00000D70\r\n       
+    PUSH, hiddenArrayLength\r\n        PUSH, hiddenArrayLengthLast\r\n        PUSH,
+    __Boolean_D\r\n        EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
+    PUSH, __Boolean_D\r\n        JUMP_IF_FALSE, 0x00000D68\r\n        PUSH, hiddenArrayLength\r\n       
+    PUSH, hiddenArrayLengthLast\r\n        COPY\r\n        PUSH, __format_4\r\n       
+    PUSH, hiddenArrayLength\r\n        PUSH, __message_7\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
+    PUSH, __message_7\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
+    JUMP, 0x00000D68\r\n        JUMP, 0x00000D70\r\n        JUMP, 0xFFFFFFFC\r\n   
+    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
@@ -303,9 +302,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|scrollPos
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_SystemInt32
@@ -324,9 +325,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|scrollDir
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Event_Custom
@@ -355,6 +358,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - b6cf9cf7-7248-47eb-8751-4d71c320fdf7|0
+      - 
       flowUIDs:
       - 8b861fef-3462-4e88-94b7-7bfaab5d28ac
       nodeValues:
@@ -362,6 +366,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|d6c644a7-a361-4659-842b-d3a063839fe3
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemInt32
       uid: b6cf9cf7-7248-47eb-8751-4d71c320fdf7
       position: {x: 675, y: 165}
@@ -377,6 +384,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 3fd70940-c08d-4a5a-b75a-3c821d098047|0
+      - 
       flowUIDs:
       - 94b3a091-91b6-4b52-bb10-e7b4a5d1b665
       nodeValues:
@@ -384,6 +392,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|d6c644a7-a361-4659-842b-d3a063839fe3
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemInt32
       uid: 3fd70940-c08d-4a5a-b75a-3c821d098047
       position: {x: 675, y: 480}
@@ -433,12 +444,16 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 1027e9a7-e5ce-4031-a6a3-6ae6f0a88b1b|0
+      - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|33452081-ff41-468c-8d72-1fb75b3f9d40
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: c4c68828-434b-43d1-99c6-2ba489d2c24f
       position: {x: 3315, y: 285}
@@ -521,9 +536,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|indexVisiblePlayers
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
@@ -532,12 +549,16 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - f1caab7c-10cd-48ee-b1a3-a64d0ae63c39|0
+      - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f14412b2-7c0a-4e5d-bcba-b720a6629d5a
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 58ea3121-d5e5-4f92-b5e0-859dd5d34b3d
       position: {x: 3120, y: 3180}
@@ -575,7 +596,7 @@ MonoBehaviour:
       uid: cc83623e-7cca-48c8-9068-157b9e62de68
       position: {x: 3915, y: 2970}
       nodeUIDs:
-      - 908bf7bb-5b2f-4c87-8108-773923d5ee32|0
+      - 
       - 9fe574ff-bec1-47f8-8bac-b96c36db4417|0
       flowUIDs: []
       nodeValues:
@@ -599,9 +620,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|selectedPlayer
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
@@ -610,6 +633,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - afe0a578-1c4f-43d5-8b9d-42e52d9631f9|0
+      - 
       flowUIDs:
       - cc83623e-7cca-48c8-9068-157b9e62de68
       nodeValues:
@@ -617,6 +641,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9428398e-9d1f-4d69-a481-d77ccecf09a6
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 113aee5d-6048-4129-9057-3648a2ca373b
       position: {x: 3915, y: 3195}
@@ -651,11 +678,13 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|displayText
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|A3
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
@@ -793,13 +822,16 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Int32[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|{"value":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
+        stringValue: System.Int32[], mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|{"value":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|hiddenArray
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_UnityEngineUIToggle
@@ -818,9 +850,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|hideMeToggle
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
@@ -896,7 +930,8 @@ MonoBehaviour:
       - f494e035-46c0-40d8-8e60-2af170359491
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
       uid: 72881551-321f-4922-b4b9-7098388301d2
       position: {x: 3495, y: 4830}
@@ -973,9 +1008,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|indexHidden
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
@@ -984,6 +1021,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - c45d6f70-e4e6-4946-8458-1287532c2079|0
+      - 
       flowUIDs:
       - 61ab3401-6f52-4675-b52b-9b4324b04d66
       nodeValues:
@@ -991,6 +1029,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0deed37c-8bdd-4ca1-9577-46e4c0ecbfa0
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Variable_SystemBoolean
       uid: d8eb4664-19ff-44af-a14b-802cf2ca2188
       position: {x: 0, y: 0}
@@ -1007,9 +1048,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|searching
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Branch
@@ -1021,7 +1064,8 @@ MonoBehaviour:
       - 8fbdcc14-3cb4-4fa4-a90d-1115fa0f9bb8
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: b486bc40-ee00-451a-9006-76451630ba55
       position: {x: 3930, y: 5445}
@@ -1039,6 +1083,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 0cd81b3b-e02f-44f7-b941-9bc87437ee99|0
+      - 
       flowUIDs:
       - 14bf04ec-6380-4183-ac01-cf2685bc13ae
       nodeValues:
@@ -1046,6 +1091,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|d8eb4664-19ff-44af-a14b-802cf2ca2188
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemBoolean
       uid: 0cd81b3b-e02f-44f7-b941-9bc87437ee99
       position: {x: 3240, y: 5445}
@@ -1054,13 +1102,15 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
     - fullName: Set_Variable
       uid: 104f55fd-34f1-456f-9cc6-6460f85bde9e
       position: {x: 6195, y: 5535}
       nodeUIDs:
       - 
       - b861b709-b51f-418a-95f2-a7d23e1002ba|0
+      - 
       flowUIDs:
       - 7a42e093-0701-4653-81fc-1a071e47586f
       nodeValues:
@@ -1068,6 +1118,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|d8eb4664-19ff-44af-a14b-802cf2ca2188
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemBoolean
       uid: b861b709-b51f-418a-95f2-a7d23e1002ba
       position: {x: 6195, y: 5445}
@@ -1076,7 +1129,8 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 58a846fb-142e-4b71-ad2b-adb3b5063db9
       position: {x: 5865, y: 5445}
@@ -1179,6 +1233,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 30ceb639-e97c-488f-a0e6-07c2a6486070|0
+      - 
       flowUIDs:
       - 29aa3d9c-7398-4488-8e0b-9cb5673802fa
       nodeValues:
@@ -1186,6 +1241,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0deed37c-8bdd-4ca1-9577-46e4c0ecbfa0
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: SystemInt32Array.__Get__SystemInt32__SystemInt32
       uid: 6a68513a-0612-4792-b5c1-acb4a2dcbaa2
       position: {x: 4245, y: 8430}
@@ -1256,7 +1314,8 @@ MonoBehaviour:
       - 3c7190c0-8ef3-47bf-a244-69483c632085
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: f30997fe-fc36-4d97-b9d2-694e38bea950
       position: {x: 4695, y: 8100}
@@ -1337,9 +1396,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|visiblePlayers
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_SystemInt32
@@ -1358,9 +1419,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|visiblePlayersSize
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
@@ -1419,9 +1482,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|allPlayers
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Variable_SystemInt32
@@ -1440,9 +1505,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|hiddenArrayLength
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Block
@@ -1485,7 +1552,8 @@ MonoBehaviour:
       - 506e5757-6d53-4174-8d7b-50a3c42be83b
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: SystemInt32Array.__Get__SystemInt32__SystemInt32
       uid: fc8eee21-025d-4bc5-9e20-fc680950212f
       position: {x: 4575, y: 5655}
@@ -1558,6 +1626,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - db91ac64-cdaa-488b-9b37-91d85138c9e1|0
+      - 
       flowUIDs:
       - c692f4e0-8d9e-4cae-845a-2ae50786e1a4
       nodeValues:
@@ -1565,6 +1634,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|bb184613-2221-4b21-80db-80820798ab4e
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: ccefdf51-f46e-4c08-8a52-765babfc52cd
       position: {x: 5775, y: 6555}
@@ -1629,9 +1701,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|idCache
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
@@ -1640,6 +1714,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - b6e7e24f-9024-4628-bac2-091056d03a24|0
+      - 
       flowUIDs:
       - d5a1bad6-7fc4-4881-9580-68a43b2b67be
       nodeValues:
@@ -1647,6 +1722,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|940af4f8-5fe5-4ac7-87e1-bc927e8acb91
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Variable_SystemInt32
       uid: 546faaa2-d0f4-4dc9-afe3-61c1e09971d3
       position: {x: -3832.5, y: 45}
@@ -1663,9 +1741,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|indexAllPlayers
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
@@ -1674,6 +1754,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - d558b104-a0c2-4ee8-ab3b-4397ade88806|0
+      - 
       flowUIDs:
       - 63eb0ff4-d21d-4de0-b488-35d065e48b9c
       nodeValues:
@@ -1681,6 +1762,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|546faaa2-d0f4-4dc9-afe3-61c1e09971d3
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: fc1fad2e-b2a7-4fd0-ad4a-e83ea3e6208e
       position: {x: 4335, y: 855}
@@ -1846,7 +1930,8 @@ MonoBehaviour:
       - 12f05cf7-92d2-4445-91cf-5c85ef1ebab9
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Branch
       uid: a19f5659-e85e-4aa0-b88d-bb64517d11ca
       position: {x: 5220, y: 1260}
@@ -1857,7 +1942,8 @@ MonoBehaviour:
       - db789684-59f9-461a-86cf-6eec65b01b00
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Variable_SystemBoolean
       uid: 44cffd5d-f883-4088-b558-1828b24397b7
       position: {x: 0, y: 0}
@@ -1874,9 +1960,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|foundHidden
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Set_Variable
@@ -1885,12 +1973,16 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 962d4ef1-c860-413a-bcda-98a9cf2635fc|0
+      - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|44cffd5d-f883-4088-b558-1828b24397b7
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemBoolean
       uid: 962d4ef1-c860-413a-bcda-98a9cf2635fc
       position: {x: 5955, y: 705}
@@ -1899,7 +1991,8 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 337bb141-faf9-4923-aa3a-eb46b895666c
       position: {x: 5220, y: 1170}
@@ -1917,12 +2010,16 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - dc5e31c9-0364-4aea-966b-2160f3456ce4|0
+      - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|44cffd5d-f883-4088-b558-1828b24397b7
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemBoolean
       uid: dc5e31c9-0364-4aea-966b-2160f3456ce4
       position: {x: 5775, y: 1395}
@@ -1931,7 +2028,8 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
     - fullName: Get_Variable
       uid: dfc02698-d867-4ba7-8c06-06a46beff2fc
       position: {x: 4995, y: 1935}
@@ -1953,7 +2051,8 @@ MonoBehaviour:
       - e28bbff6-c22d-4cff-ae4e-d34c5c94e5ec
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 421a6ada-f18b-48dc-b3cb-bf6ac0a608e7
       position: {x: 5475, y: 1905}
@@ -1998,12 +2097,16 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - e28ba9b5-ed09-4bc3-b9c4-e97560fb0ab8|0
+      - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|24890f78-840c-4b70-85a3-03a95d7236ec
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 2c94bab5-064a-4bdd-84fc-144efa494364
       position: {x: 5880, y: 2190}
@@ -2053,6 +2156,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - ef4e2513-94b1-4dd2-9476-24c222af5e16|0
+      - 
       flowUIDs:
       - 9a48816a-032b-42ba-a732-9d090a41f657
       nodeValues:
@@ -2060,6 +2164,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|24890f78-840c-4b70-85a3-03a95d7236ec
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Const_SystemInt32
       uid: ef4e2513-94b1-4dd2-9476-24c222af5e16
       position: {x: 3090, y: 705}
@@ -2099,6 +2206,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - f3601fb5-be3e-42c8-bf86-12103e612c85|0
+      - 
       flowUIDs:
       - ece70ba8-f1eb-4645-a62d-81999d2fd2b3
       nodeValues:
@@ -2106,12 +2214,16 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|4770fa5e-594e-4763-b789-77d59e95916d
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Set_Variable
       uid: b42f44da-7e0e-4166-90ad-05ac73ae3d9d
       position: {x: -1995, y: -30}
       nodeUIDs:
       - 
       - bb4a3f28-2791-4928-9506-e16ecc2a3948|0
+      - 
       flowUIDs:
       - 8983fc11-b005-4971-ad0a-12a0d1e7147e
       nodeValues:
@@ -2119,6 +2231,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|a765f81e-d5b7-4c2f-acc3-91bfce5bbf4b
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray
       uid: bb4a3f28-2791-4928-9506-e16ecc2a3948
       position: {x: -1995, y: 105}
@@ -2143,12 +2258,16 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - 1a0d4238-4e25-407b-ad17-ed3e75c557a7|0
+      - 
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|da96298d-c9fd-4ae8-bc63-306d5dca2104
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: SystemInt32Array.__ctor__SystemInt32__SystemInt32Array
       uid: 1a0d4238-4e25-407b-ad17-ed3e75c557a7
       position: {x: -1305, y: 105}
@@ -2330,9 +2449,11 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|hiddenArrayLengthLast
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
@@ -2378,13 +2499,15 @@ MonoBehaviour:
       - 433a03b1-453d-44ce-9969-b8f80f57030a
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Set_Variable
       uid: 433a03b1-453d-44ce-9969-b8f80f57030a
       position: {x: 1485, y: 2010}
       nodeUIDs:
       - 
       - 7246afea-e776-40a3-9066-7cb10cad3997|0
+      - 
       flowUIDs:
       - d0026028-dc2f-417a-9a08-7fb3461eb82e
       nodeValues:
@@ -2392,6 +2515,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|442473fd-8393-41fb-bf80-e773fe5e4be4
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 7246afea-e776-40a3-9066-7cb10cad3997
       position: {x: 1485, y: 2145}
@@ -2462,13 +2588,16 @@ MonoBehaviour:
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|verboseLogging
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
@@ -2491,7 +2620,8 @@ MonoBehaviour:
       - ac32cd53-2604-42ae-9d3f-96efdbf212c3
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: aade203d-ac88-4843-9438-a89eb68d7bbf
       position: {x: 6465, y: 5805}
@@ -2585,7 +2715,8 @@ MonoBehaviour:
       - 4655b965-6462-4a2c-9595-facb6e6dc5a4
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 991c416c-0a78-4c19-9aa3-1e9a72d4c1ef
       position: {x: 3090, y: 2235}
@@ -2631,11 +2762,13 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|tipText
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|A2
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|True
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Block
@@ -2709,6 +2842,7 @@ MonoBehaviour:
       nodeUIDs:
       - 
       - a7d3509b-4c58-4f4c-bfa8-e55a070df1c1|0
+      - 
       flowUIDs:
       - d558b104-a0c2-4ee8-ab3b-4397ade88806
       nodeValues:
@@ -2716,6 +2850,9 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|a765f81e-d5b7-4c2f-acc3-91bfce5bbf4b
       - unityObjectValue: {fileID: 0}
         stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 44cb08d0-e590-453e-bdf8-13507bfb4bc8
       position: {x: 3435, y: 810}
@@ -2736,6 +2873,63 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: Variable_TMProTextMeshProUGUI
+      uid: f409938d-1968-474e-8a8a-76770253e880
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|tipText
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_TMProTextMeshProUGUI
+      uid: c69b3c3c-546a-468a-b2c4-b2cbe9f40b9b
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|displayText
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 897c7b30-ab9a-42a5-9299-870f31b09f5c
+      position: {x: 3677.4783, y: 2843.261}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c69b3c3c-546a-468a-b2c4-b2cbe9f40b9b
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -2754,8 +2948,8 @@ MonoBehaviour:
   - type: 3
     uid: b895fd20-c232-4b3c-89ac-515f2d4b130b
     jsonData: '{"uid":"b895fd20-c232-4b3c-89ac-515f2d4b130b","layout":{"serializedVersion":"2","x":-30.0,"y":-600.0,"width":430.6540832519531,"height":123.64813232421875},"title":"Planned:
-      replace the field scolling with a dropdown menu or something a lot quicker for
-      large instances.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      replace the field scolling with a dropdown menu or something a lot quicker
+      for large instances.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 9bd9fbb3-d44c-455e-a198-15b4ea392fd6
     jsonData: '{"uid":"9bd9fbb3-d44c-455e-a198-15b4ea392fd6","layout":{"serializedVersion":"2","x":4455.0,"y":2340.0,"width":392.1004943847656,"height":90.72122192382813},"title":"Use
@@ -2778,8 +2972,8 @@ MonoBehaviour:
   - type: 3
     uid: e781090e-9eb6-42d7-b104-5e0da2394336
     jsonData: '{"uid":"e781090e-9eb6-42d7-b104-5e0da2394336","layout":{"serializedVersion":"2","x":3885.0,"y":4845.0,"width":532.5524291992188,"height":94.75146484375},"title":"If
-      hide is True, then find the first 0 in the list and add local''s ID to it. If
-      hide is False, then try to find local''s ID in the list and set it to 0.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      hide is True, then find the first 0 in the list and add local''s ID to it.
+      If hide is False, then try to find local''s ID in the list and set it to 0.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 8f45c011-37de-45ce-b009-3a8089aeb0d4
     jsonData: '{"uid":"8f45c011-37de-45ce-b009-3a8089aeb0d4","layout":{"serializedVersion":"2","x":4620.0,"y":4800.0,"width":549.281982421875,"height":151.02386474609376},"title":"I
@@ -2790,13 +2984,13 @@ MonoBehaviour:
   - type: 3
     uid: 5c654663-b491-4e3e-9cef-ca79b2519e1b
     jsonData: '{"uid":"5c654663-b491-4e3e-9cef-ca79b2519e1b","layout":{"serializedVersion":"2","x":5505.0,"y":5310.0,"width":531.031982421875,"height":99.3141098022461},"title":"Local
-      must be allowed to changed this synced data, because this function is only called
-      from OnPreSerialization, which only the owner can run.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      must be allowed to changed this synced data, because this function is only
+      called from OnPreSerialization, which only the owner can run.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: c3ca13f6-5bc9-4615-9355-dac231c2d187
     jsonData: '{"uid":"c3ca13f6-5bc9-4615-9355-dac231c2d187","layout":{"serializedVersion":"2","x":3195.0,"y":5310.0,"width":309.0635681152344,"height":90.2590103149414},"title":"need
-      this check to avoid putting local''s ID in more than one slot; also avoids running
-      unnecessary code","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      this check to avoid putting local''s ID in more than one slot; also avoids
+      running unnecessary code","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 2b9d3d64-bf51-4198-88c3-d1b3fdf6f16b
     jsonData: '{"uid":"2b9d3d64-bf51-4198-88c3-d1b3fdf6f16b","layout":{"serializedVersion":"2","x":3705.0,"y":5355.0,"width":576.9771728515625,"height":67.89665222167969},"title":"Iterate
@@ -2804,14 +2998,14 @@ MonoBehaviour:
   - type: 3
     uid: 43ca20c3-10af-4d6a-b3f6-20e948b51bdf
     jsonData: '{"uid":"43ca20c3-10af-4d6a-b3f6-20e948b51bdf","layout":{"serializedVersion":"2","x":3045.0,"y":7995.0,"width":548.554931640625,"height":137.864990234375},"title":"Skipping
-      the ''searching'' check for this one; this will actually just go ahead and search
-      the entire array for local''s ID, and remove all of them. I never expect more
-      than one, of course, but it makes me feel better.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      the ''searching'' check for this one; this will actually just go ahead and
+      search the entire array for local''s ID, and remove all of them. I never expect
+      more than one, of course, but it makes me feel better.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 835a15ec-8d17-479a-bd20-d5cf3f3ccfaf
     jsonData: '{"uid":"835a15ec-8d17-479a-bd20-d5cf3f3ccfaf","layout":{"serializedVersion":"2","x":-30.0,"y":-915.0,"width":434.5999450683594,"height":176.09994506835938},"title":"Later
-      improvement: replace array of 80 int32s (320 bytes) with ushorts to reduce the
-      network load.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      improvement: replace array of 80 int32s (320 bytes) with ushorts to reduce
+      the network load.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 61255ee9-0f73-4458-bab2-114cfb77caeb
     jsonData: '{"uid":"61255ee9-0f73-4458-bab2-114cfb77caeb","layout":{"serializedVersion":"2","x":3090.0,"y":435.0,"width":539.8529052734375,"height":136.72763061523438},"title":"Build
@@ -2853,8 +3047,8 @@ MonoBehaviour:
     jsonData: '{"uid":"5f513f53-39b2-45a2-9522-6091ff4efeb4","layout":{"serializedVersion":"2","x":6420.0,"y":6300.0,"width":582.7415161132813,"height":160.68136596679688},"title":"The
       condition is >=. So, if the search finds an empty index left by a player who
       disconnected OR removed themself, the list does not need to get longer. But
-      if the search reaches the end point of the list, and fills that index with local
-      player, then it should increase length by 1 to allow for the next addition.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
+      if the search reaches the end point of the list, and fills that index with
+      local player, then it should increase length by 1 to allow for the next addition.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: b7c67eb5-bc5c-4fec-8b0b-dbef0bf9535e
     jsonData: '{"uid":"b7c67eb5-bc5c-4fec-8b0b-dbef0bf9535e","layout":{"serializedVersion":"2","x":5625.0,"y":360.0,"width":387.0628356933594,"height":102.45265197753906},"title":"Prepare
@@ -2868,8 +3062,8 @@ MonoBehaviour:
   - type: 3
     uid: 4b3a174d-de55-4024-981d-5610c98cba0b
     jsonData: '{"uid":"4b3a174d-de55-4024-981d-5610c98cba0b","layout":{"serializedVersion":"2","x":4455.0,"y":2460.0,"width":507.5341491699219,"height":109.96025085449219},"title":"
-      This is not ideal, because as the visible player list fluctuates in length and
-      order, this does nothing at all to keep the scrolled position from wandering
+      This is not ideal, because as the visible player list fluctuates in length
+      and order, this does nothing at all to keep the scrolled position from wandering
       around. Clunky, but works just fine in most cases.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 3
     uid: 9d99b7f7-7fb9-4c2c-bcac-0e3ccfe060f8
@@ -2918,7 +3112,7 @@ MonoBehaviour:
       the toggle to a button that requests, and then player gets confirmation only
       if the update was successful.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -1368.2085, y: -5083.085}
-    scale: 0.65751624
+    position: {x: -3290, y: -2631}
+    scale: 1
   version: 1.0.0
   showAssembly: 0
