@@ -1,5 +1,5 @@
-v1.0.0
+v1.1.0
 
-July 20, 2021
+October 22, 2021
 
 https://semver.org/

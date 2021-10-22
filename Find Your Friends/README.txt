@@ -5,11 +5,13 @@ Drag and drop; no configuration required.
 
 I recommend placing a single Find Your Friends panel in a place easily accessible from your world's spawn. That way players can freely respawn to access the panel again and teleport to new people.
 
+As of version 1.1.0, TextMeshPro Essentials is required. Download via Window-->TextMeshPro-->Import TMP Essential Resources.
+
 --- LESS IMPORTANT:
 You can place multiple panels in your world, but I don't recommend that for now, since references won't work as expected. I may add that feature in the future.
 
 Udon Sharp is not required for this prefab. You can safely delete the FindYourFriends_us script and asset. They are provided as a fully equivalent alternative to the default Udon Graph asset.
 
-This prefab is available on github (github.com/jokerispunk) and I'll be accepting pull requests eventually. I'm not an artist and an aesthetic rework of the UI panel would be welcomed.
+This prefab is available on github (github.com/jokerispunk) and I accept pull requests (you are encouraged to comment or talk to me first).
 
 Thanks to Fairly Sad Panda (github.com/fairlysadpanda) for networking guidance, and thanks always to the VRCPrefabs community (vrcprefabs.com).
