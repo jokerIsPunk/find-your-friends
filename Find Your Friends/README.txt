@@ -10,7 +10,7 @@ As of version 1.1.0, TextMeshPro Essentials is required. Download via Window-->T
 --- LESS IMPORTANT:
 You can place multiple panels in your world, but I don't recommend that for now, since references won't work as expected. I may add that feature in the future.
 
-Udon Sharp is not required for this prefab. You can safely delete the FindYourFriends_us script and asset. They are provided as a fully equivalent alternative to the default Udon Graph asset.
+Udon Sharp is not required for this prefab. You can safely delete the FindYourFriends_us script and asset, and use the Graphs prefab variant in the /Prefabs folder instead. The Udon Graph and Udon Sharp versions are equivalent alternatives.
 
 This prefab is available on github (github.com/jokerispunk) and I accept pull requests (you are encouraged to comment or talk to me first).
 

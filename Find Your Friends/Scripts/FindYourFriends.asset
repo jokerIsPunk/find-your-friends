@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: FindYourFriends
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 998c07f1cf4d707498be66f916f1a562,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 4bf47e6adadb9ec4e85c69053ffdea60,
     type: 2}
-  udonAssembly: ".data_start\r\n\r\n    .export A3\r\n    .export hideMeToggle\r\n   
-    .export verboseLogging\r\n    .export A2\r\n    .sync hiddenArray, none\r\n   
+  udonAssembly: ".data_start\r\n\r\n    .export hideMeToggle\r\n    .export verboseLogging\r\n   
+    .export tipText\r\n    .export displayText\r\n    .sync hiddenArray, none\r\n   
     .sync hiddenArrayLength, none\r\n    \r\n    __Int32_0: %SystemInt32, null\r\n   
     __instance_0: %VRCUdonUdonBehaviour, this\r\n    __eventName_0: %SystemString,
     null\r\n    __Int32_1: %SystemInt32, null\r\n    __instance_1: %VRCUdonUdonBehaviour,
@@ -43,7 +43,7 @@ MonoBehaviour:
     __Int32_F: %SystemInt32, null\r\n    __value_1: %SystemInt32, null\r\n    __object_1:
     %SystemObject, null\r\n    __result_1: %SystemBoolean, null\r\n    __instance_7:
     %VRCSDKBaseVRCPlayerApiArray, null\r\n    __Int32_10: %SystemInt32, null\r\n   
-    __instance_8: %UnityEngineUIText, null\r\n    __value_2: %SystemString, null\r\n   
+    __instance_8: %TMProTextMeshProUGUI, null\r\n    __value_2: %SystemString, null\r\n   
     __VRCPlayerApi_0: %VRCSDKBaseVRCPlayerApi, null\r\n    __message_0: %SystemObject,
     null\r\n    __format_0: %SystemString, null\r\n    __arg0_0: %SystemObject, null\r\n   
     __arg1_0: %SystemObject, null\r\n    __arg2_0: %SystemObject, null\r\n    __object_2:
@@ -73,7 +73,7 @@ MonoBehaviour:
     %SystemInt32, null\r\n    __max_0: %SystemInt32, null\r\n    __Int32_14: %SystemInt32,
     null\r\n    __Int32_15: %SystemInt32, null\r\n    __message_4: %SystemObject,
     null\r\n    __format_2: %SystemString, null\r\n    __arg0_2: %SystemObject, null\r\n   
-    __instance_14: %UnityEngineUIText, null\r\n    __value_5: %SystemString, null\r\n   
+    __instance_14: %TMProTextMeshProUGUI, null\r\n    __value_5: %SystemString, null\r\n   
     __instance_15: %VRCUdonUdonBehaviour, this\r\n    __message_5: %SystemObject,
     null\r\n    __String_2: %SystemString, null\r\n    __index_5: %SystemInt32, null\r\n   
     __condition_3: %SystemBoolean, null\r\n    __start_3: %SystemInt32, null\r\n   
@@ -85,7 +85,7 @@ MonoBehaviour:
     __value_6: %SystemObject, null\r\n    __index_6: %SystemInt32, null\r\n    __Int32_19:
     %SystemInt32, null\r\n    __message_6: %SystemObject, null\r\n    __format_3:
     %SystemString, null\r\n    __arg0_3: %SystemObject, null\r\n    __instance_1A:
-    %VRCUdonUdonBehaviour, this\r\n    __instance_1B: %UnityEngineUIText, null\r\n   
+    %VRCUdonUdonBehaviour, this\r\n    __instance_1B: %TMProTextMeshProUGUI, null\r\n   
     __value_7: %SystemString, null\r\n    __Int32_1A: %SystemInt32, null\r\n    __Int32_1B:
     %SystemInt32, null\r\n    __Int32_1C: %SystemInt32, null\r\n    __Boolean_C:
     %SystemBoolean, null\r\n    __Boolean_D: %SystemBoolean, null\r\n    __Int32_1D:
@@ -93,18 +93,18 @@ MonoBehaviour:
     %SystemObject, null\r\n    __format_4: %SystemString, null\r\n    __arg0_4: %SystemObject,
     null\r\n    scrollPos: %SystemInt32, null\r\n    scrollDir: %SystemInt32, null\r\n   
     indexVisiblePlayers: %SystemInt32, null\r\n    selectedPlayer: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    A3: %UnityEngineUIText, null\r\n    hiddenArray: %SystemInt32Array,
-    null\r\n    hideMeToggle: %UnityEngineUIToggle, null\r\n    indexHidden: %SystemInt32,
-    null\r\n    searching: %SystemBoolean, null\r\n    visiblePlayers: %VRCSDKBaseVRCPlayerApiArray,
-    null\r\n    visiblePlayersSize: %SystemInt32, null\r\n    allPlayers: %VRCSDKBaseVRCPlayerApiArray,
-    null\r\n    hiddenArrayLength: %SystemInt32, null\r\n    idCache: %SystemInt32,
-    null\r\n    indexAllPlayers: %SystemInt32, null\r\n    foundHidden: %SystemBoolean,
-    null\r\n    hiddenArrayLengthLast: %SystemInt32, null\r\n    verboseLogging:
-    %SystemBoolean, null\r\n    A2: %UnityEngineUIText, null\r\n    tipText: %TMProTextMeshProUGUI,
-    null\r\n    displayText: %TMProTextMeshProUGUI, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
-    .export _Right\r\n    \r\n    _Right:\r\n    \r\n        PUSH, __Int32_0\r\n       
-    PUSH, scrollDir\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
-    __eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    null\r\n    hiddenArray: %SystemInt32Array, null\r\n    hideMeToggle: %UnityEngineUIToggle,
+    null\r\n    indexHidden: %SystemInt32, null\r\n    searching: %SystemBoolean,
+    null\r\n    visiblePlayers: %VRCSDKBaseVRCPlayerApiArray, null\r\n    visiblePlayersSize:
+    %SystemInt32, null\r\n    allPlayers: %VRCSDKBaseVRCPlayerApiArray, null\r\n   
+    hiddenArrayLength: %SystemInt32, null\r\n    idCache: %SystemInt32, null\r\n   
+    indexAllPlayers: %SystemInt32, null\r\n    foundHidden: %SystemBoolean, null\r\n   
+    hiddenArrayLengthLast: %SystemInt32, null\r\n    verboseLogging: %SystemBoolean,
+    null\r\n    tipText: %TMProTextMeshProUGUI, null\r\n    displayText: %TMProTextMeshProUGUI,
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _Right\r\n    \r\n   
+    _Right:\r\n    \r\n        PUSH, __Int32_0\r\n        PUSH, scrollDir\r\n       
+    COPY\r\n        PUSH, __instance_0\r\n        PUSH, __eventName_0\r\n       
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Left\r\n    \r\n    _Left:\r\n    \r\n       
     PUSH, __Int32_1\r\n        PUSH, scrollDir\r\n        COPY\r\n        PUSH, __instance_1\r\n       
     PUSH, __eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
@@ -153,7 +153,7 @@ MonoBehaviour:
     PUSH, __index_0\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
     JUMP, 0x000000EC\r\n        PUSH, visiblePlayersSize\r\n        PUSH, __Int32_D\r\n       
     PUSH, __Boolean_5\r\n        EXTERN, \"SystemInt32.__op_GreaterThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_5\r\n        JUMP_IF_FALSE, 0x00000524\r\n        PUSH, scrollPos\r\n       
+    PUSH, __Boolean_5\r\n        JUMP_IF_FALSE, 0x00000538\r\n        PUSH, scrollPos\r\n       
     PUSH, __Int32_E\r\n        EXTERN, \"UnityEngineMathf.__Abs__SystemInt32__SystemInt32\"\r\n       
     PUSH, __Int32_E\r\n        PUSH, visiblePlayersSize\r\n        PUSH, indexVisiblePlayers\r\n       
     EXTERN, \"SystemInt32.__op_Remainder__SystemInt32_SystemInt32__SystemInt32\"\r\n       
@@ -161,14 +161,14 @@ MonoBehaviour:
     PUSH, __instance_7\r\n        PUSH, indexVisiblePlayers\r\n        PUSH, __object_1\r\n       
     EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__Get__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __object_1\r\n        PUSH, __result_1\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
-    PUSH, __result_1\r\n        JUMP_IF_FALSE, 0x0000051C\r\n        PUSH, visiblePlayers\r\n       
+    PUSH, __result_1\r\n        JUMP_IF_FALSE, 0x00000530\r\n        PUSH, visiblePlayers\r\n       
     PUSH, __instance_7\r\n        COPY\r\n        PUSH, __object_1\r\n        PUSH,
     selectedPlayer\r\n        COPY\r\n        PUSH, __object_1\r\n        PUSH, selectedPlayer\r\n       
-    COPY\r\n        PUSH, selectedPlayer\r\n        PUSH, __VRCPlayerApi_0\r\n       
-    COPY\r\n        PUSH, __VRCPlayerApi_0\r\n        PUSH, __value_2\r\n       
-    EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n       
-    PUSH, __instance_8\r\n        PUSH, __value_2\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n       
-    JUMP, 0x0000051C\r\n        JUMP, 0x00000524\r\n        PUSH, __arg0_0\r\n       
+    COPY\r\n        PUSH, displayText\r\n        PUSH, __instance_8\r\n        COPY\r\n       
+    PUSH, selectedPlayer\r\n        PUSH, __VRCPlayerApi_0\r\n        COPY\r\n       
+    PUSH, __VRCPlayerApi_0\r\n        PUSH, __value_2\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\"\r\n       
+    PUSH, __instance_8\r\n        PUSH, __value_2\r\n        EXTERN, \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x00000530\r\n        JUMP, 0x00000538\r\n        PUSH, __arg0_0\r\n       
     EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\"\r\n        PUSH,
     __format_0\r\n        PUSH, __arg0_0\r\n        PUSH, hiddenArrayLength\r\n       
     PUSH, visiblePlayersSize\r\n        PUSH, __message_0\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject_SystemObject_SystemObject__SystemString\"\r\n       
@@ -176,7 +176,7 @@ MonoBehaviour:
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _Teleport\r\n    \r\n    _Teleport:\r\n   
     \r\n        PUSH, selectedPlayer\r\n        PUSH, __object_2\r\n        COPY\r\n       
     PUSH, __object_2\r\n        PUSH, __result_2\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
-    PUSH, __result_2\r\n        JUMP_IF_FALSE, 0x00000648\r\n        PUSH, __instance_9\r\n       
+    PUSH, __result_2\r\n        JUMP_IF_FALSE, 0x0000065C\r\n        PUSH, __instance_9\r\n       
     EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, selectedPlayer\r\n        PUSH, __instance_A\r\n        COPY\r\n       
     PUSH, __instance_A\r\n        PUSH, __teleportPos_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPosition__UnityEngineVector3\"\r\n       
@@ -184,7 +184,7 @@ MonoBehaviour:
     PUSH, __instance_B\r\n        PUSH, __teleportRot_0\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetRotation__UnityEngineQuaternion\"\r\n       
     PUSH, __instance_9\r\n        PUSH, __teleportPos_0\r\n        PUSH, __teleportRot_0\r\n       
     EXTERN, \"VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\"\r\n       
-    JUMP, 0x00000648\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _HideToggle\r\n   
+    JUMP, 0x0000065C\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _HideToggle\r\n   
     \r\n    _HideToggle:\r\n    \r\n        PUSH, __player_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __player_0\r\n        PUSH, __obj_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__SetOwner__VRCSDKBaseVRCPlayerApi_UnityEngineGameObject__SystemVoid\"\r\n       
     PUSH, __instance_C\r\n        PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
@@ -193,9 +193,9 @@ MonoBehaviour:
     PUSH, __message_1\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
     PUSH, hideMeToggle\r\n        PUSH, __instance_D\r\n        COPY\r\n        PUSH,
     __instance_D\r\n        PUSH, __Boolean_6\r\n        EXTERN, \"UnityEngineUIToggle.__get_isOn__SystemBoolean\"\r\n       
-    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x00000718\r\n        PUSH, __instance_E\r\n       
+    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x0000072C\r\n        PUSH, __instance_E\r\n       
     PUSH, __eventName_3\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    JUMP, 0x00000730\r\n        PUSH, __instance_F\r\n        PUSH, __eventName_4\r\n       
+    JUMP, 0x00000744\r\n        PUSH, __instance_F\r\n        PUSH, __eventName_4\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _AddToArray\r\n    \r\n    _AddToArray:\r\n   
     \r\n        PUSH, __String_1\r\n        PUSH, __message_2\r\n        COPY\r\n       
@@ -205,15 +205,15 @@ MonoBehaviour:
     PUSH, __end_2\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n       
     PUSH, __start_2\r\n        PUSH, __index_3\r\n        COPY\r\n        PUSH, __index_3\r\n       
     PUSH, __end_2\r\n        PUSH, __condition_2\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __condition_2\r\n        JUMP_IF_FALSE, 0x00000A40\r\n        PUSH, searching\r\n       
-    JUMP_IF_FALSE, 0x00000A18\r\n        PUSH, hiddenArray\r\n        PUSH, __instance_10\r\n       
+    PUSH, __condition_2\r\n        JUMP_IF_FALSE, 0x00000A54\r\n        PUSH, searching\r\n       
+    JUMP_IF_FALSE, 0x00000A2C\r\n        PUSH, hiddenArray\r\n        PUSH, __instance_10\r\n       
     COPY\r\n        PUSH, __index_3\r\n        PUSH, indexHidden\r\n        COPY\r\n       
     PUSH, hiddenArray\r\n        PUSH, __instance_11\r\n        COPY\r\n        PUSH,
     __instance_11\r\n        PUSH, indexHidden\r\n        PUSH, __playerId_1\r\n       
     EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH,
     __playerId_1\r\n        PUSH, __object_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __object_3\r\n        PUSH, __result_3\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
-    PUSH, __result_3\r\n        JUMP_IF_FALSE, 0x00000894\r\n        JUMP, 0x00000A10\r\n       
+    PUSH, __result_3\r\n        JUMP_IF_FALSE, 0x000008A8\r\n        JUMP, 0x00000A24\r\n       
     PUSH, hiddenArray\r\n        PUSH, __instance_12\r\n        COPY\r\n        PUSH,
     __instance_13\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __instance_13\r\n        PUSH, __value_3\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\"\r\n       
@@ -225,19 +225,19 @@ MonoBehaviour:
     PUSH, __message_3\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
     PUSH, indexHidden\r\n        PUSH, hiddenArrayLength\r\n        PUSH, __Boolean_A\r\n       
     EXTERN, \"SystemInt32.__op_GreaterThanOrEqual__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_A\r\n        JUMP_IF_FALSE, 0x000009E4\r\n        PUSH, __Int32_14\r\n       
+    PUSH, __Boolean_A\r\n        JUMP_IF_FALSE, 0x000009F8\r\n        PUSH, __Int32_14\r\n       
     PUSH, hiddenArrayLength\r\n        PUSH, __value_4\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
     PUSH, __value_4\r\n        PUSH, __min_0\r\n        PUSH, __max_0\r\n       
     PUSH, hiddenArrayLength\r\n        EXTERN, \"UnityEngineMathf.__Clamp__SystemInt32_SystemInt32_SystemInt32__SystemInt32\"\r\n       
     PUSH, __format_2\r\n        PUSH, hiddenArrayLength\r\n        PUSH, __message_4\r\n       
     EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
     PUSH, __message_4\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
-    JUMP, 0x000009E4\r\n        PUSH, A2\r\n        PUSH, __instance_14\r\n       
+    JUMP, 0x000009F8\r\n        PUSH, tipText\r\n        PUSH, __instance_14\r\n       
     COPY\r\n        PUSH, __instance_14\r\n        PUSH, __value_5\r\n        EXTERN,
-    \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n        JUMP, 0x00000A18\r\n       
-    PUSH, __index_3\r\n        PUSH, __step_2\r\n        PUSH, __index_3\r\n       
-    EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
-    JUMP, 0x000007B0\r\n        PUSH, __instance_15\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
+    \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n        JUMP,
+    0x00000A2C\r\n        PUSH, __index_3\r\n        PUSH, __step_2\r\n        PUSH,
+    __index_3\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
+    JUMP, 0x000007C4\r\n        PUSH, __instance_15\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _RemoveFromArray\r\n    \r\n    _RemoveFromArray:\r\n   
     \r\n        PUSH, __String_2\r\n        PUSH, __message_5\r\n        COPY\r\n       
     PUSH, __message_5\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
@@ -245,7 +245,7 @@ MonoBehaviour:
     __instance_16\r\n        PUSH, __end_3\r\n        EXTERN, \"SystemInt32Array.__get_Length__SystemInt32\"\r\n       
     PUSH, __start_3\r\n        PUSH, __index_5\r\n        COPY\r\n        PUSH, __index_5\r\n       
     PUSH, __end_3\r\n        PUSH, __condition_3\r\n        EXTERN, \"SystemInt32.__op_LessThan__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __condition_3\r\n        JUMP_IF_FALSE, 0x00000C48\r\n        PUSH, hiddenArray\r\n       
+    PUSH, __condition_3\r\n        JUMP_IF_FALSE, 0x00000C5C\r\n        PUSH, hiddenArray\r\n       
     PUSH, __instance_16\r\n        COPY\r\n        PUSH, __index_5\r\n        PUSH,
     indexHidden\r\n        COPY\r\n        PUSH, __instance_17\r\n        EXTERN,
     \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
@@ -255,31 +255,31 @@ MonoBehaviour:
     EXTERN, \"SystemInt32Array.__Get__SystemInt32__SystemInt32\"\r\n        PUSH,
     __Int32_16\r\n        PUSH, __Int32_17\r\n        PUSH, __Boolean_B\r\n       
     EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_B\r\n        JUMP_IF_FALSE, 0x00000C20\r\n        PUSH, hiddenArray\r\n       
+    PUSH, __Boolean_B\r\n        JUMP_IF_FALSE, 0x00000C34\r\n        PUSH, hiddenArray\r\n       
     PUSH, __instance_19\r\n        COPY\r\n        PUSH, __Int32_19\r\n        PUSH,
     __value_6\r\n        COPY\r\n        PUSH, __instance_19\r\n        PUSH, __value_6\r\n       
     PUSH, indexHidden\r\n        EXTERN, \"SystemInt32Array.__SetValue__SystemObject_SystemInt32__SystemVoid\"\r\n       
     PUSH, __format_3\r\n        PUSH, indexHidden\r\n        PUSH, __message_6\r\n       
     EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
     PUSH, __message_6\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
-    JUMP, 0x00000C20\r\n        PUSH, __index_5\r\n        PUSH, __step_3\r\n       
+    JUMP, 0x00000C34\r\n        PUSH, __index_5\r\n        PUSH, __step_3\r\n       
     PUSH, __index_5\r\n        EXTERN, \"SystemInt32.__op_Addition__SystemInt32_SystemInt32__SystemInt32\"\r\n       
-    JUMP, 0x00000ABC\r\n        PUSH, __instance_1A\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
-    PUSH, A2\r\n        PUSH, __instance_1B\r\n        COPY\r\n        PUSH, __instance_1B\r\n       
-    PUSH, __value_7\r\n        EXTERN, \"UnityEngineUIText.__set_text__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x00000AD0\r\n        PUSH, __instance_1A\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
+    PUSH, tipText\r\n        PUSH, __instance_1B\r\n        COPY\r\n        PUSH,
+    __instance_1B\r\n        PUSH, __value_7\r\n        EXTERN, \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _start\r\n    \r\n    _start:\r\n   
     \r\n        PUSH, __Int32_1A\r\n        PUSH, allPlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray\"\r\n       
     PUSH, __Int32_1B\r\n        PUSH, visiblePlayers\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApiArray.__ctor__SystemInt32__VRCSDKBaseVRCPlayerApiArray\"\r\n       
     PUSH, __Int32_1C\r\n        PUSH, hiddenArray\r\n        EXTERN, \"SystemInt32Array.__ctor__SystemInt32__SystemInt32Array\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onDeserialization\r\n    \r\n    _onDeserialization:\r\n   
-    \r\n        PUSH, verboseLogging\r\n        JUMP_IF_FALSE, 0x00000D70\r\n       
+    \r\n        PUSH, verboseLogging\r\n        JUMP_IF_FALSE, 0x00000D84\r\n       
     PUSH, hiddenArrayLength\r\n        PUSH, hiddenArrayLengthLast\r\n        PUSH,
     __Boolean_D\r\n        EXTERN, \"SystemInt32.__op_Inequality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_D\r\n        JUMP_IF_FALSE, 0x00000D68\r\n        PUSH, hiddenArrayLength\r\n       
+    PUSH, __Boolean_D\r\n        JUMP_IF_FALSE, 0x00000D7C\r\n        PUSH, hiddenArrayLength\r\n       
     PUSH, hiddenArrayLengthLast\r\n        COPY\r\n        PUSH, __format_4\r\n       
     PUSH, hiddenArrayLength\r\n        PUSH, __message_7\r\n        EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
     PUSH, __message_7\r\n        EXTERN, \"UnityEngineDebug.__Log__SystemObject__SystemVoid\"\r\n       
-    JUMP, 0x00000D68\r\n        JUMP, 0x00000D70\r\n        JUMP, 0xFFFFFFFC\r\n   
+    JUMP, 0x00000D7C\r\n        JUMP, 0x00000D84\r\n        JUMP, 0xFFFFFFFC\r\n   
     \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -592,18 +592,6 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
-    - fullName: UnityEngineUIText.__set_text__SystemString__SystemVoid
-      uid: cc83623e-7cca-48c8-9068-157b9e62de68
-      position: {x: 3915, y: 2970}
-      nodeUIDs:
-      - 
-      - 9fe574ff-bec1-47f8-8bac-b96c36db4417|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
     - fullName: Variable_VRCSDKBaseVRCPlayerApi
       uid: 9428398e-9d1f-4d69-a481-d77ccecf09a6
       position: {x: 0, y: 0}
@@ -635,7 +623,7 @@ MonoBehaviour:
       - afe0a578-1c4f-43d5-8b9d-42e52d9631f9|0
       - 
       flowUIDs:
-      - cc83623e-7cca-48c8-9068-157b9e62de68
+      - bb4f197f-d3c7-4e8b-be82-b79eb78ebb12
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9428398e-9d1f-4d69-a481-d77ccecf09a6
@@ -662,40 +650,6 @@ MonoBehaviour:
       - 113aee5d-6048-4129-9057-3648a2ca373b|0
       flowUIDs: []
       nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: Variable_UnityEngineUIText
-      uid: ba7901b1-1211-4a87-b7c1-47533340289a
-      position: {x: 0, y: 0}
-      nodeUIDs:
-      - 
-      - 
-      - 
-      - 
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|A3
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
-    - fullName: Get_Variable
-      uid: 908bf7bb-5b2f-4c87-8108-773923d5ee32
-      position: {x: 3915, y: 2880}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ba7901b1-1211-4a87-b7c1-47533340289a
       - unityObjectValue: {fileID: 0}
         stringValue: 
     - fullName: Event_Custom
@@ -1519,7 +1473,7 @@ MonoBehaviour:
       flowUIDs:
       - c953ebae-6b83-4ec6-b396-76c7aa75c7ff
       - 1a3e0db5-508c-4ebe-b3e1-0a73cf4d4984
-      - 5a138d6e-37e3-491f-a31a-1e91408eb577
+      - d7da1213-d0e0-420d-844f-314d645f3514
       nodeValues: []
     - fullName: Get_Variable
       uid: 438ae95d-2317-4fb4-bf65-a4a75e3902fa
@@ -2748,29 +2702,6 @@ MonoBehaviour:
       - 94c41ca9-ec6c-4cc2-b1a3-08dafd274a36
       - 036c538c-fcbf-4600-a444-9a558fe8c2de
       nodeValues: []
-    - fullName: Variable_UnityEngineUIText
-      uid: 3ad8fc47-9792-4fc4-84ba-5334e8a4786e
-      position: {x: -3105, y: -5475}
-      nodeUIDs:
-      - 
-      - 
-      - 
-      - 
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|A2
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Block
       uid: ff06c9bb-9621-4f35-80a5-edc8fb6104e8
       position: {x: 3075, y: 8190}
@@ -2778,56 +2709,8 @@ MonoBehaviour:
       flowUIDs:
       - 30ceb639-e97c-488f-a0e6-07c2a6486070
       - 8d2d8329-80d6-472b-a705-eef71ce2b903
-      - 6aaaa993-f2c3-4ceb-b68f-8dae4dc70449
+      - 7a1fa012-c5f1-4bc7-a1cd-0450bc612eb5
       nodeValues: []
-    - fullName: Get_Variable
-      uid: 77b0cd43-6e05-45de-a227-245e4ef7d348
-      position: {x: 3180, y: 8865}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|3ad8fc47-9792-4fc4-84ba-5334e8a4786e
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: UnityEngineUIText.__set_text__SystemString__SystemVoid
-      uid: 6aaaa993-f2c3-4ceb-b68f-8dae4dc70449
-      position: {x: 3180, y: 8955}
-      nodeUIDs:
-      - 77b0cd43-6e05-45de-a227-245e4ef7d348|0
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Others
-          may teleport to you
-    - fullName: Get_Variable
-      uid: 31416b4d-e7e0-407f-9207-86c8663c4c3c
-      position: {x: 5385, y: 7050}
-      nodeUIDs:
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|3ad8fc47-9792-4fc4-84ba-5334e8a4786e
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-    - fullName: UnityEngineUIText.__set_text__SystemString__SystemVoid
-      uid: 5a138d6e-37e3-491f-a31a-1e91408eb577
-      position: {x: 5385, y: 7140}
-      nodeUIDs:
-      - 31416b4d-e7e0-407f-9207-86c8663c4c3c
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Others
-          cannot teleport to you
     - fullName: Block
       uid: 14bf04ec-6380-4183-ac01-cf2685bc13ae
       position: {x: 3420, y: 5535}
@@ -2875,7 +2758,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Variable_TMProTextMeshProUGUI
       uid: f409938d-1968-474e-8a8a-76770253e880
-      position: {x: 0, y: 0}
+      position: {x: -5385, y: -7110}
       nodeUIDs:
       - 
       - 
@@ -2890,7 +2773,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|tipText
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|False
@@ -2913,7 +2796,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|displayText
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
+          PublicKeyToken=b77a5c561934e089|True
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|False
@@ -2921,7 +2804,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 897c7b30-ab9a-42a5-9299-870f31b09f5c
-      position: {x: 3677.4783, y: 2843.261}
+      position: {x: 3915, y: 2880}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -2930,6 +2813,66 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c69b3c3c-546a-468a-b2c4-b2cbe9f40b9b
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid
+      uid: bb4f197f-d3c7-4e8b-be82-b79eb78ebb12
+      position: {x: 3915, y: 2970}
+      nodeUIDs:
+      - 897c7b30-ab9a-42a5-9299-870f31b09f5c|0
+      - 9fe574ff-bec1-47f8-8bac-b96c36db4417|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Get_Variable
+      uid: cab7b0b9-0432-4706-855b-0e120299e3dd
+      position: {x: 5385, y: 7065}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f409938d-1968-474e-8a8a-76770253e880
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid
+      uid: d7da1213-d0e0-420d-844f-314d645f3514
+      position: {x: 5385, y: 7155}
+      nodeUIDs:
+      - cab7b0b9-0432-4706-855b-0e120299e3dd|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Others
+          cannot teleport to you
+    - fullName: Get_Variable
+      uid: 12d32837-78b3-40a2-9041-c0c139b2e443
+      position: {x: 3180, y: 9000}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|f409938d-1968-474e-8a8a-76770253e880
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid
+      uid: 7a1fa012-c5f1-4bc7-a1cd-0450bc612eb5
+      position: {x: 3180, y: 9090}
+      nodeUIDs:
+      - 12d32837-78b3-40a2-9041-c0c139b2e443
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Others
+          may teleport to you
     updateOrder: 0
   graphElementData:
   - type: 5
@@ -3112,7 +3055,7 @@ MonoBehaviour:
       the toggle to a button that requests, and then player gets confirmation only
       if the update was successful.","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: -3290, y: -2631}
-    scale: 1
+    position: {x: -510.4, y: -1048}
+    scale: 0.2842624
   version: 1.0.0
   showAssembly: 0
