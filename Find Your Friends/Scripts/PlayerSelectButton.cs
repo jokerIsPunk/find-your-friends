@@ -24,14 +24,17 @@ namespace jokerispunk
             vrcPlayer = playerInput;
             label.text = playerInput.displayName;
 
-            // random hue; uses color2's saturation and value
-            float hue1, hue2;
-            float s, v;
-            Color.RGBToHSV(color1, out hue1, out s, out v);
-            Color.RGBToHSV(color2, out hue2, out s, out v);
-            float hueRandom = Random.Range(hue1, hue2);
-            Color col = Color.HSVToRGB(hueRandom, s, v);
-            arrow.color = col;
+            if (arrow)
+            {
+                // random hue; uses color2's saturation and value
+                float hue1, hue2;
+                float s, v;
+                Color.RGBToHSV(color1, out hue1, out s, out v);
+                Color.RGBToHSV(color2, out hue2, out s, out v);
+                float hueRandom = Random.Range(hue1, hue2);
+                Color col = Color.HSVToRGB(hueRandom, s, v);
+                arrow.color = col;
+            }
         }
 
         public void _OnClick()
